@@ -1,4 +1,4 @@
-# baseURL = "https://gitcoke.github.io/lolipop/mikasa_test/httpdocs/2025oct01/public/"
+# baseURL = "baseURL = "https://gitcoke.github.io/coke/""
 languageCode = "ja-jp"
 defaultContentLanguage = "ja"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "Even - A super concise theme for Hugo"
