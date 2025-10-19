@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper #contact .contact_title{
+	width:100%;
+	height:371px;
+	margin-top:40px;
+	background:url(../images/title.png) no-repeat center;
+}
+
+
+#wrapper #contact .txt01{
+	margin-top:108px;
+	margin-bottom:95px;
+}
+
+#wrapper #contact .flow{
+	width:100%;
+}
+
+#wrapper #contact .flow .flowtxt{
+	text-align:center;
+	margin-top:86px;
+	margin-bottom:80px;
+}
+
+#wrapper #contact .flow .flowtitle{
+	text-align:center;
+	font-size:16px;
+}
+
+
+#wrapper #contact .flow #flowbox{
+	width:780px;
+	margin-top:20px;
+}
+
+#wrapper #contact .flow .midashi{
+	background:url(../images/square_g.png) no-repeat 0;
+	padding-left:10px;
+	font-size:16px;
+}
+
+#wrapper #contact .flow .icon_c{
+	background:url(../images/icon_c.png) no-repeat 0;
+	padding-left:18px;
+	font-size:16px;
+}
+
+#wrapper #contact .flow .icon_c_b{
+	background:url(../images/icon_c_b.png) no-repeat 0;
+	padding-left:18px;
+	font-size:16px;
+}
+
+#wrapper #contact .flow .errortxt {
+	color:#df0012;
+	font-size:14px;
+	line-height:22px;
+	}
+
+#wrapper #contact .flow #flowbox ul li{
+	padding-bottom:30px;
+	}
+
+
+
+#wrapper #contact .flow #personalbox{
+	width:860px;
+	margin-top:70px;
+}
+
+#wrapper #contact .flow #personalbox ul {
+	margin:60px 0 0 0;
+	font-size:12px;
+	line-height:24px;
+}
+
+#wrapper #contact .flow #confirmatiobox{
+	width:780px;
+	margin-top:110px;
+	margin-bottom:140px;
+	font-size:16px;
+	text-align:center;
+}
+
+#wrapper #contact .flow  a{display:block;}
+#wrapper #contact .flow  a:hover img{visibility: hidden;}
+
+#wrapper #contact .flow  .confirmatio_btn a:hover{
+	background-image:url(../images/btn_confirmatio_on.png);
+	background-repeat:no-repeat;
+	width:320px;
+	height:54px;
+	margin: 0 auto;
+	}
+
+
+
+
+/* complete */
+
+#wrapper #contact .flow #topbtnbox {
+	width:320px;
+	margin-bottom:140px;
+	text-align:center;
+}
+
+
+
+#wrapper #contact .flow #topbtnbox .topbtnbox_btn a:hover{
+	background-image:url(../images/btn_top_on.png);
+	background-repeat:no-repeat;
+	width:320px;
+	height:54px;
+	margin: 0 auto;
+	}
+
+#wrapper #contact .flow .completetxt{
+	text-align:center;
+	margin-top:86px;
+	margin-bottom:80px;
+	font-size:18px;
+}
+
+
+/* submit */
+
+#wrapper #contact .flow #submitbox {
+	width:650px;
+	margin-bottom:140px;
+	margin-top:100px;
+	text-align:center;
+	font-size:16px;
+}
+
+
+
+#wrapper #contact .flow #submitbox .submit_btn a:hover{
+	background-image:url(../images/btn_submit_on.png);
+	background-repeat:no-repeat;
+	width:320px;
+	height:54px;
+	}
+
+#wrapper #contact .flow #submitbox .back_btn a:hover{
+	background-image:url(../images/btn_back_on.png);
+	background-repeat:no-repeat;
+	width:320px;
+	height:54px;
+	}
+
+
+/* back */
+
+#wrapper #contact .flow #backbox {
+	width:780px;
+	margin-top:50px;
+	margin-bottom:140px;
+	text-align:center;
+	font-size:16px;	
+}
+
+#wrapper #contact .flow #backbox .back_btn a:hover{
+	background-image:url(../images/btn_back_on.png);
+	background-repeat:no-repeat;
+	width:320px;
+	height:54px;
+	margin: 0 auto;
+	}
+
+
+.mt30 {margin-top:40px;}
+.mt24 {margin-top:24px;}
+.mt15 {margin-top:15px;}
+.ml10 {margin-left:10px;}
+.ml36 {margin-left:36px;}
+.mb130 {margin-bottom:130px;}

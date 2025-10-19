@@ -1,0 +1,12 @@
+<ifModule mod_headers.c>
+Header always set X-XSS-Protection "1; mode=block"
+Header always set X-Content-Type-Options "nosniff"
+Header always append X-Frame-Options SAMEORIGIN
+Header always set X-Download-Options: noopen
+Header always set X-Powered-By: "" 
+</ifModule>
+  
+<IfModule mod_php5.c>
+php_flag session.cookie_httponly on
+php_flag session.cookie_secure On
+</IfModule>

@@ -1,0 +1,183 @@
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mikasa-eng.co.jp" resolutions="1x" timestamp="1599710663792">
+  <folder name="assets">
+    <file name="mikasa_construct-.pdf" crc="4100159290" seo="true" mt="1437874832000"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="3872606453"/>
+    <file name="index.css" crc="4234972504" ref="index"/>
+    <file name="master_main.css" crc="257770560" ref="webshop:privacy:construct:profile:index:deliver:contact:about"/>
+    <file name="webshop.css" crc="415455832" ref="webshop"/>
+    <file name="privacy.css" crc="470019888" ref="privacy"/>
+    <file name="construct.css" crc="412769133" ref="construct"/>
+    <file name="profile.css" crc="3781029318" ref="profile"/>
+    <file name="deliver.css" crc="196719619" ref="deliver"/>
+    <file name="contact.css" crc="474431991" ref="contact"/>
+    <file name="about.css" crc="279206650" ref="about"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about:privacy:profile:contact:webshop:construct:deliver"/>
+    <file name="museutils.js" crc="4232573551" ref="index:about:privacy:profile:contact:webshop:construct:deliver"/>
+    <file name="whatinput.js" crc="86476730" ref="index:about:privacy:profile:contact:webshop:construct:deliver"/>
+    <file name="museconfig.js" crc="4152223963" ref="index:about:privacy:profile:contact:webshop:construct:deliver"/>
+    <file name="webpro.js" crc="3770351119" ref="index:about:privacy:profile:contact:webshop:construct:deliver"/>
+    <file name="musewpslideshow.js" crc="4244742588" ref="index:about:privacy:profile:contact:webshop:construct:deliver"/>
+    <file name="jquery.museoverlay.js" crc="432750910" ref="index:about:privacy:profile:contact:webshop:construct:deliver"/>
+    <file name="touchswipe.js" crc="3912873526" ref="index:about:privacy:profile:contact:webshop:construct:deliver"/>
+    <file name="jquery.musemenu.js" crc="38860304" ref="index:about:privacy:profile:contact:webshop:construct:deliver"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:about:privacy:profile:contact:webshop:construct:deliver"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:about:privacy:profile:contact:webshop:construct:deliver"/>
+    <file name="require.js" crc="4234670167" ref="index:about:privacy:profile:contact:webshop:construct:deliver"/>
+    <file name="form_check.php" crc="3841221102" ref="contact"/>
+    <file name="form_throttle.php" crc="4048049783" ref="contact"/>
+    <file name="form_process.php" crc="3899230280" ref="contact"/>
+    <file name="musewpdisclosure.js" crc="347705465" ref="profile:construct"/>
+    <file name="form-u1644.php" crc="4043792855" ref="contact"/>
+  </folder>
+  <folder name="images">
+    <file name="blank.gif" crc="4208392903" ref="index:about:privacy:profile:contact:webshop:construct:deliver"/>
+    <file name="loading.gif" crc="3815509949" ref="index:construct"/>
+    <file name="footer.jpg" crc="267211508" ref="index:about:privacy:profile:contact:webshop:construct:deliver">
+      <caption webpage="webshop" alt=""/>
+      <caption webpage="privacy" alt=""/>
+      <caption webpage="deliver" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="profile" alt=""/>
+      <caption webpage="construct" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="tel.jpg" crc="360140238" seo="true" ref="index:about:privacy:profile:contact:webshop:construct:deliver">
+      <caption webpage="webshop" alt=""/>
+      <caption webpage="privacy" alt=""/>
+      <caption webpage="deliver" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="profile" alt=""/>
+      <caption webpage="construct" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="info.jpg" crc="3836883678" seo="true" ref="index:about:privacy:profile:contact:webshop:construct:deliver">
+      <caption webpage="webshop" alt=""/>
+      <caption webpage="privacy" alt=""/>
+      <caption webpage="deliver" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="profile" alt=""/>
+      <caption webpage="construct" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="privacy.jpg" crc="459244026" seo="true" ref="index:about:privacy:profile:contact:webshop:construct:deliver">
+      <caption webpage="webshop" alt=""/>
+      <caption webpage="privacy" alt=""/>
+      <caption webpage="deliver" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="profile" alt=""/>
+      <caption webpage="construct" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="s_03.jpg" crc="3920957992" seo="true" ref="index:about:privacy:profile:contact:webshop:construct:deliver">
+      <caption webpage="webshop" alt=""/>
+      <caption webpage="privacy" alt=""/>
+      <caption webpage="deliver" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="profile" alt=""/>
+      <caption webpage="construct" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="s_02.jpg" crc="3921146303" seo="true" ref="index:about:privacy:profile:contact:webshop:construct:deliver">
+      <caption webpage="webshop" alt=""/>
+      <caption webpage="privacy" alt=""/>
+      <caption webpage="deliver" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="profile" alt=""/>
+      <caption webpage="construct" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="s_01.jpg" crc="4241990320" seo="true" ref="index:about:privacy:profile:contact:webshop:construct:deliver">
+      <caption webpage="webshop" alt=""/>
+      <caption webpage="privacy" alt=""/>
+      <caption webpage="deliver" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="profile" alt=""/>
+      <caption webpage="construct" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="top_logo.png" crc="3771995426" seo="true" ref="index:about:privacy:profile:contact:webshop:construct:deliver">
+      <caption webpage="webshop" alt=""/>
+      <caption webpage="privacy" alt=""/>
+      <caption webpage="deliver" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="profile" alt=""/>
+      <caption webpage="construct" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="mikasa_top.jpg" crc="420226161" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo_white.png" crc="4167407240" seo="true" ref="index:about:privacy:profile:contact:webshop:construct:deliver">
+      <caption webpage="webshop" alt=""/>
+      <caption webpage="privacy" alt=""/>
+      <caption webpage="deliver" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="profile" alt=""/>
+      <caption webpage="construct" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="page_top.jpg" crc="3950357064" seo="true" ref="about:privacy:profile:contact:webshop:construct:deliver">
+      <caption webpage="webshop" alt=""/>
+      <caption webpage="privacy" alt=""/>
+      <caption webpage="deliver" alt=""/>
+      <caption webpage="profile" alt=""/>
+      <caption webpage="construct" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="p_19.jpg" crc="3881087420" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="p_13.jpg" crc="508038665" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="p_04.jpg" crc="4236796864" seo="true" ref="profile">
+      <caption webpage="profile" alt=""/>
+    </file>
+    <file name="koken_03.jpg" crc="68736261" seo="true" ref="profile">
+      <caption webpage="profile" alt=""/>
+    </file>
+    <file name="koken_04.jpg" crc="385309891" seo="true" ref="profile">
+      <caption webpage="profile" alt=""/>
+    </file>
+    <file name="koken_05.jpg" crc="3161207" seo="true" ref="profile">
+      <caption webpage="profile" alt=""/>
+    </file>
+    <file name="koken_02.jpg" crc="3846314831" seo="true" ref="profile">
+      <caption webpage="profile" alt=""/>
+    </file>
+    <file name="office_02.jpg" crc="258591075" seo="true" ref="profile">
+      <caption webpage="profile" alt=""/>
+    </file>
+    <file name="office_03.jpg" crc="4217920076" seo="true" ref="profile">
+      <caption webpage="profile" alt=""/>
+    </file>
+    <file name="office_01.jpg" crc="4243848382" seo="true" ref="profile">
+      <caption webpage="profile" alt=""/>
+    </file>
+    <file name="office_04.jpg" crc="377275083" seo="true" ref="profile">
+      <caption webpage="profile" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="457893679" seo="true" mt="1469145414789" redirect="true"/>
+  <file name="about.html" crc="111273107" seo="true" mt="1469145414789" redirect="true"/>
+  <file name="privacy.html" crc="244615028" seo="true" mt="1469145414789" redirect="true"/>
+  <file name="profile.html" crc="3908310310" seo="true" mt="1571809832258" redirect="true"/>
+  <file name="contact.html" crc="85140610" seo="true" mt="1469145414789" redirect="true"/>
+  <file name="webshop.html" crc="4142705686" seo="true" mt="1469145414789" redirect="true"/>
+  <file name="construct.html" crc="294819897" seo="true" mt="1599710612575" redirect="true"/>
+  <file name="deliver.html" crc="3867300402" seo="true" mt="1599627700927" redirect="true"/>
+</manifest>

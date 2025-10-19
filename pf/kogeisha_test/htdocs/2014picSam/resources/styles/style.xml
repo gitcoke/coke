@@ -1,0 +1,108 @@
+<galleryStyle xmlns="http://ns.adobe.com/AMG/1.2/">
+<styleInfo>
+<amgVersion>1.3</amgVersion>
+<thumbnailPath></thumbnailPath>
+<previewPath></previewPath>
+<styleName>Test</styleName>
+<styleDescription></styleDescription>
+<galleryMaker></galleryMaker>
+<creationDate>12/12/13, 04:43:22 &#x5348;&#x5F8C;</creationDate>
+</styleInfo>
+<appearance xmlns="http://ns.adobe.com/AMG/FlashGallery/style/1.0/">
+<playOptions playMode="pause"/>
+<galleryInfo>
+<galleryInfoTextField height="1200.00" width="635.00"/>
+<galleryInfoText fontFamily="system" linkColor="000000" align="left" color="555555" size="12.00"/>
+<galleryInfoBgColor color="382828" alpha="6.00"/>
+<galleryInfoScrollBars>
+<galleryInfoScrollBarFill color="E3E3E3" alpha="100.00"/>
+<galleryInfoScrollBarBorder alpha="100.00" color="CCCCCC"/>
+<galleryInfoScrollBarFore alpha="100.00" color="999999"/>
+</galleryInfoScrollBars>
+<galleryInfoBorder alpha="100.00" color="CCCCCC"/>
+</galleryInfo>
+<slideTransitions slideDuration="5.00" transitionDuration=".75" transition="fade"/>
+<contactInfo>
+<contactInfoText color="555555" fontFamily="system" alpha="100.00" size="11.00"/>
+</contactInfo>
+<bandWidthOptions connection="broadband"/>
+<slideshow>
+<slideshowButtons>
+<slideshowBtnFore alpha="100.00" color="FFFFFF"/>
+<slideshowCtrlText color="333333" alpha="100.00" fontFamily="system" size="12.00"/>
+<slideshowBtnBackground color="CCCCCC" alpha="100.00"/>
+<slideshowBtnBorder color="CCCCCC" alpha="100.00"/>
+</slideshowButtons>
+<videoCtrl>
+<videoCtrlBgColor alpha="95.00" color="FAFAFA"/>
+<videoDropShadow enabled="false"/>
+<videoCtrlBtnFore alpha="100.00" color="5D5D5D"/>
+<videoCtrlBtnBorder color="AEAEAE" alpha="100.00"/>
+<videoCtrlBorder color="AEAEAE" alpha="100.00" width="1.00"/>
+<videoCtrlBtnBackground color="C8C8C8" alpha="100.00"/>
+</videoCtrl>
+<slideshowBorder color="CCCCCC" alpha="100.00"/>
+<images>
+<imageBorder color="666666" alpha="100.00" width="0.50"/>
+<imageDropShadow enabled="true"/>
+</images>
+<slideshowMetadata>
+<metadataField titles="true" height="36.00" captions="true"/>
+<metadataFieldText fontFamily="system" autoSize="true" color="333333" alpha="100.00" size="12.00"/>
+</slideshowMetadata>
+<slideshowBgColor color="FFFFFF" alpha="0.00"/>
+</slideshow>
+<headerBar>
+<groupTitle color="333333" fontFamily="system" alpha="100.00" size="16.00"/>
+<headerBarEnabled enabled="true"/>
+<headerBarColor color="FFFFFF" alpha="100.00"/>
+<pageTitle color="333333" fontFamily="system" alpha="100.00" size="20.00"/>
+<pageTitleImg visible="false" src="resources/logo.png"/>
+</headerBar>
+<menuBar>
+<menuBorder alpha="100.00" color="555555"/>
+<menuBgColor color="E3E3E3" alpha="100.00"/>
+<menuHover alpha="10.00" color="000000"/>
+<menuText color="555555" alpha="100.00"/>
+<menuBarEnabled enabled="true"/>
+</menuBar>
+<mediaPosition y="0.00" x="0.00" fitAtStart="true" videoScale="upDown" imageScale="fitToScreen" height="264.00" positionType="auto" width="360.00"/>
+<metadataOptions metadataPosition="underPhotos"/>
+<viewOptions startingView="galleryScrollingLeft"/>
+<background>
+<backgroundBgImg alpha="100.00" src=""/>
+<backgroundBgColor alpha="100.00" color="FFFFFF"/>
+</background>
+<thumbnailView>
+<thumbnailViewBorder color="CCCCCC" alpha="100.00"/>
+<thumbnailViewBgColor alpha="6.00" color="382828"/>
+<thumbnails>
+<thumbHover color="000000" alpha="100.00"/>
+<thumbSelected color="FF0000" alpha="100.00"/>
+<thumbDropShadow enabled="false"/>
+<thumbBorder color="999999" alpha="100.00" width="1.00"/>
+</thumbnails>
+<thumbnailViewScrollBars>
+<thumbnailViewScrollBarFill color="E3E3E3" alpha="100.00"/>
+<thumbnailViewScrollBarBorder alpha="100.00" color="CCCCCC"/>
+<thumbnailViewScrollBarFore color="999999" alpha="100.00"/>
+</thumbnailViewScrollBars>
+<thumbnailViewControls>
+<thumbViewBtnBackground alpha="100.00" color="CCCCCC"/>
+<thumbViewCtrlText alpha="100.00" color="333333"/>
+<thumbViewBtnFore color="FFFFFF" alpha="100.00"/>
+<thumbViewBtnBorder alpha="100.00" color="CCCCCC"/>
+</thumbnailViewControls>
+</thumbnailView>
+<metadataView>
+<metadataViewBtnFore color="696969" alpha="100.00"/>
+<metadataViewBgColor color="FAFAFA" alpha="50.00"/>
+<metadataViewBorder alpha="50.00" color="FAFAFA"/>
+<metadataViewBtnBorder color="A1A1A1" alpha="100.00"/>
+<metadataViewBtnBackground alpha="100.00" color="C8C8C8"/>
+<metadataViewField titles="true" captions="true" widthPercentage=".25"/>
+<metadataViewText fontFamily="system" linkColor="696969" color="696969" align="left" size="12.00"/>
+<metadataViewTitle fontFamily="system" linkColor="696969" align="left" color="696969" size="14.00"/>
+</metadataView>
+</appearance>
+</galleryStyle>

@@ -1,0 +1,62 @@
+.q_area {
+	background-image: url(img/c01Q_back.gif);
+	background-repeat: no-repeat;
+	background-position: 10px bottom;
+	padding-left: 190px;
+	margin-bottom: 0px;
+	margin-left: 60px;
+	padding-bottom: 0px;
+	padding-top: 44px;
+}
+.q {
+	background-image: url(img/c01Q.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 60px;
+	color: #FF0000;
+	width: 740px;
+	padding-right: 0px;
+	line-height: 50px;
+	vertical-align: bottom;
+	font-size: 1.2em;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.boder {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #333333;
+	width: 740px;
+	line-height: 3em;
+	clear: both;
+}
+.a {
+	background-image: url(img/c01A.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 60px;
+	width: 740px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+.qbutton{
+	vertical-align: middle;
+	margin-left: 250px;
+	margin-top: -41px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	position: absolute;
+	clear: left;
+	height: 40px;
+	width: 168px;
+}
+.c01_ill {
+	margin-left: 500px;
+	margin-top: -30px;
+}
+.froatL {
+	float: right;
+}
+.w800 {
+	width: 800px;
+}

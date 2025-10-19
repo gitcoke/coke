@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+/*win ie用ハック*/
+a img{
+		border-style: none;
+}
+
+/*win ie用ハック↑*/
+
+h1 {
+	font-size: 12px;
+	display: inline;
+	color: #666;
+}
+img,
+td img,
+tr td img,
+img a:link,
+img a:active,
+td img a:link,
+table,
+table img a:link,
+{
+	display: block;
+	border="0":
+	border-style: none;
+	border-style: hidden;
+	text-decoration: none;
+	border: none;
+vertical-align:bottom;
+	}
+
+body {
+	text-align: center;
+	margin-left:0px;
+	margin-top:0px;
+	text-decoration: none;
+	border-style: none;
+}
+div#wrapper {
+	width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+}
+a:link {
+	text-decoration: none;
+	border-style: none;
+	  outline:none;
+
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+	color: #797979;
+	border-style: none;
+}
+.bcl {
+	font-size: 12px;
+	color: #666;
+	margin-left: 30px;
+	text-decoration: none;
+	 text-align:left;
+}
+.bcl a:hover {
+	color: #F96;
+	text-decoration: none;
+}
+.info_history_wrap {
+	height: auto;
+	margin-left: 70px;
+	display: block;
+	margin-top: 10px;
+	color: #666;
+	margin-bottom: 70px;
+	z-index: 2;
+}
+.info_history_wrap a:link {
+	color: #0CF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.info_history_wrap a:hover {
+	color: #C66;
+}
+.info_history_wrap a:visited {
+	color: #0CF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.bg_img_pre {
+	display: inline-block;
+	position: absolute;
+	background: #CCC;
+	z-index: 3;
+	margin: 0px;
+	padding: 0px;
+	clip: rect(auto,auto,auto,auto);
+	text-align: right;
+	width: 300px;
+	height: 700px;
+	left: 700px;
+}
+
+.flvTit1 {
+	color: #999;
+	vertical-align: top;
+	padding-top: 120px;
+}
+.floatleft {
+	float: left;
+	vertical-align: top;
+	clear: left;
+}
+#samA {
+	background: url(images/d_walk_through_r10_c4.jpg) no-repeat 0px 60px;
+	height: 350px;
+	width: 760px;
+}
+.table td flvTit1 {
+	color: #F00;
+}
+
+.box {
+	border: 2px solid #333;
+	width: 100px;
+	margin: 0px 0px 200px 25px;
+	vertical-align: top;
+}
+.marginL50 {
+	margin-left: 50px;
+	border-style: none;
+}.hide {
+	display: none;
+}
+.right {
+	text-align: right;
+}
+.pickuplink_r {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	display: block;
+	background: url(img/D_works/btn_bg100.png) no-repeat;
+	height: 26px;
+	width: 100px;
+	text-decoration: none;
+	line-height: 26px;
+	text-align: center;
+	float: right;
+	margin-right: 325px;
+}
+.pickuplink_l {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	display: block;
+	background: url(img/D_works/btn_bg100.png) no-repeat;
+	height: 26px;
+	width: 100px;
+	text-decoration: none;
+	line-height: 26px;
+	margin-left: 325px;
+	text-align: center;
+	float: left;
+}
+
+.pickuplink_r a:link, .pickuplink_l a:link,
+.pickuplink_r a:visited, .pickuplink_l a:visited
+{
+	color:#FFF
+}
+.pickuplink_r a:hover, .pickuplink_l a:hover
+{
+	background: url(img/D_works/btn_bg100_on.png) no-repeat;
+	height: 26px;
+	width: 100px;
+	text-decoration: none;
+	line-height: 26px;
+	display: block;
+}
+.clear {
+	clear: both;
+}
+.screen_hide {display:none;}.center {
+	margin: auto;
+	text-align: center;
+	display: block;
+}
+.backBtn{
+	display: block;
+	position: relative;
+	height: 25px;
+	width: 80px;
+	left: 490px;
+	top: 820px;
+}
+#backBtn2{ text-align:center; align-content:center;	display: block; width:100%}

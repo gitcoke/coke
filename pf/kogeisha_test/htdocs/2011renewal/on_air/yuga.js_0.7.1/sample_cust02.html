@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="../css/thickbox.css" type="text/css" media="screen" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/thickbox.js"></script>
+<script type="text/javascript" src="js/yuga.js" charset="utf-8"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>少し離れた所の同グループリンクテキスト</title>
+<style type="text/css">
+<!--
+a:hover {
+	color: #F00;
+}
+.far {
+	position: fixed;
+	left: 232px;
+	top: 714px;
+}
+-->
+</style></head>
+<body>
+<div>
+<a href="../../take4site/yuga.js_0.7.1/dummy1.html" class="btngroup">
+<img src="img/btn.png" alt="" class="btn" />
+<img src="img/btn.png" alt="" />
+<img src="img/btn.png" alt="" class="btn" />
+ リンクテキスト</a>
+<br/> 
+<hr />
+<p><a href="../../take4site/yuga.js_0.7.1/dummy1.html" class="btngroup">
+少し離れた所の同グループリンクテキスト</a> 
+<br/>
+同class名にしても本体ボタンの色は連動しなひ。。。
+</p>
+
+
+<hr />
+<div class="allbtn"><img src="img/btn.png" alt="" /> <img src="img/btn.png" alt="" /></div>
+allbtnというのを置いてみる。
+
+<hr />
+<div class="allbtn"><img src="img/btn.png" alt="" /> <img src="img/btn.png" alt="" /></div>
+allbtnというのを置いてみる。
+<div class="allbtn">で、このテキストにもdiv　classをつけてみた。しかしダメ</div>
+<div class="allbtn"><img src="img/btn.png" alt="" /> <img src="img/btn.png" alt="" /><a href="#">と、orgと同じのをテキスト入りで入れてみる<br />
+ふむ、どうやら使い方があるらしい</a></div>
+<hr /><hr />
+<div>
+<a href="../../take4site/yuga.js_0.7.1/dummy1.html" class="btngroup">
+<table>
+<tr>
+<td><img src="img/btn.png" alt="" class="btn" /></td></tr>
+<tr><td><img src="img/btn.png" alt="" /></td>
+<td><img src="img/btn.png" alt="" class="btn" /></td></tr>
+<tr>
+<td>ふと、そか同じdiv無いならいいかとtableなんかに入れ込んでみる。一応</td>
+</tr>
+</td>
+</tr>
+</table>
+<div class="far"><img src="img/u.gif" alt="" width="177" height="204"  class="btn" />
+</div>
+<br /><br /><br /><br /><br /><br />
+でtableの下にもテキスト
+</a>
+<hr />
+むう。ん？なんとなく解決策がみえているような。。。absoluteで画像を置いて動いてるんだから〜fixdに変えて。。うむDWプレビューではダメだがいいみたい。<br />明日センターフロートに入れてOKなら碁盤の目imgに配置でなんとかなるか？<br /><br />見やすいコード配置で試したらGOだ
+<br/> 
+<hr />
+</div>
+</body>
+</html>

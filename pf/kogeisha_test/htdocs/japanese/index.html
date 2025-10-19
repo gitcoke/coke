@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	
+<!-- サイトに合わせてキーワード、紹介文、タイトルを変更 -->
+	<meta name="keywords" content="webデザイン, webサイト 制作">
+	<meta name="description" content="webデザインやWebサイト制作、最新のWeb業界情報を紹介していくサイト">
+	<title>Coming Soon</title>
+	
+<!-- 外部ファイル -->
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Philosopher:700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.countdown.pack.js"></script>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+<!-- カウントダウン -->	
+	<script type="text/javascript">
+		$(function () {	
+			// 例：2013年9月28日
+			// "-1"は気にしなくてOK
+			$('#countdown').countdown({until: new Date(2013, 12 - 1, 26, 25, 0,  0)}); 
+		});
+	</script>
+</head>
+
+<body>
+<div id="wrapper">
+	<header>
+		<h1>Webクリエイターボックス</h1>　<!-- ←サイト名やロゴ画像に変更 -->
+		<h2>Coming Soon</h2>
+		<p>申し訳ございませんが、このWebサイトはただいま準備中です。お楽しみに！</p>
+	</header>
+	
+	<section id="timer">
+		<p>Webサイト公開まで残り:</p>
+		<div id="countdown"></div>
+	</section>
+	
+<!-- どんなサイトになるのか？簡単に紹介文を掲載。不要なら消去。 -->
+	<p id="about">
+		Webクリエイターボックスは、WebデザインやWebサイト制作、最新のWeb業界情報を紹介していくサイトです。
+		<a href="http://twitter.com/webcreatorbox">Twitter</a>や
+		<a href="http://facebook.com/webcreatorbox.fb">Facebookページ</a>もチェック！
+	</p>
+	
+	<footer>
+		<p>
+			Theme: <a href="http://webcreatormana.com">Mana</a> 
+			from <a href="http://webcreatorbox.com">Webクリエイターボックス</a>
+		</p>
+	</footer>
+	
+</div><!-- /#wrapper -->
+</body>
+</html>

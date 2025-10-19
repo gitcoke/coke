@@ -1,0 +1,38 @@
+コンテンツセンタリング作業
+各テーブル↓
+<div align="center">
+<table 
+
+</table>
+</div>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+↓
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">td img {display: block;}body {margin-left: 0px;　margin-top: 0px;}</style>
+
+パン屑は<div>で追加
+
+
+form関連info@cokes.jpを一括変換	→info@kogeisha.co.jp
+
+
+.jpg</title>
+↓
+</title>
+
+
+index.htmlのみ
+<meta name="Description" content="DISPLAY &amp; INTERIOR KOGEISHA, 株式会社工芸社は、商空間及び展示会の企画、設計施工、運営を扱う会社です" />
+
+各html共通
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>手前
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+を置き換え

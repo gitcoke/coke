@@ -1,0 +1,42 @@
+.box1 {
+	background-image: url(img/b01_plate1.gif);
+	background-repeat: no-repeat;
+	width: 800px;
+	height: 362px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.box1outline {
+	border-top: 6px solid #2E71B7;
+	border-top: 6px solid #2E71B7;
+	border-right: 6px solid #96B8DB;
+	border-bottom: 6px solid #96B8DB;
+	border-left: 6px #96B8DB;
+	width: 800px;
+	position: relative;
+	top: 10px;
+	height: 300px;
+	left: 0px;
+	z-index: -1;
+}
+
+
+.box2 {
+	background-image: url(img/b01_plate2.gif);
+	background-repeat: no-repeat;
+	width: 800px;
+	height:555px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.box3 {
+	background-image: url(img/b01_plate3.gif);
+	background-repeat: no-repeat;
+	width: 391px;
+	height:421px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}

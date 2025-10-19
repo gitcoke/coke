@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#cover {
+	position: absolute;
+	z-index: 100;
+	display: block;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	background: #FFF;
+	text-align: center;
+}
+
+/*.print{
+	width: 430px;
+	height:100px
+	background: url(ie7_print_img/index.jpg) no-repeat;
+}*/

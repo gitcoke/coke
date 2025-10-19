@@ -1,0 +1,94 @@
+@charset "Shift_JIS";
+
+/* CSSÉnÉbÉN
+------------------------------------------------------------ */
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix { display: inline-block; }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+/* ÉyÅ[ÉWëSëÃ
+---------------------------------------------------- */	
+body {
+	background: #A6D121;
+	text-align: center;
+	margin: 0px;
+	padding: 35px 0px 0px;
+}
+
+#wrapper {
+	margin: 0px auto;
+	padding: 0px;
+	width: 500px;
+}
+#leftSide {
+	margin: 0px;
+	padding: 100px 0px 0px;
+	float: left;
+	width: 235px;
+	background: url(../img/title.gif) no-repeat 0px 0px;
+	text-align: left;
+}
+#leftSide .shopName {
+	font: bolder 12px/18px "ÇlÇr ÇoÉSÉVÉbÉN", Osaka, "ÉqÉâÉMÉmäpÉS Pro W3", sans-serif;
+	margin: 0px;
+	padding: 0px 0px 22px;
+}
+#leftSide .shopGuide {
+	margin: 0px;
+	padding: 0px;
+	height: 220px;
+}
+.shopGuide p {
+	margin: 0px;
+	padding: 0px 0px 15px;
+	font: 10px/13px "ÇlÇr ÇoÉSÉVÉbÉN", Osaka, "ÉqÉâÉMÉmäpÉS Pro W3", sans-serif;
+}
+#leftSide #close {
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+}
+#close h3 {
+	font-size: 9px;
+	margin: 0px;
+	padding: 0px;
+}
+#close h3 em {
+	visibility: hidden;
+}
+#close h3 a {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+	width: 50px;
+	display: block;
+}
+#close h3#btm a {
+	background: url(../img/close.gif) no-repeat 0px 0px;
+}
+#close h3#btm a:hover {
+	background: url(../img/close.gif) no-repeat -50px 0px;
+}
+#rightSide {
+	margin: 0px;
+	padding: 0px;
+	width: 255px;
+	float: right;
+	text-align: left;
+}
+#rightSide img {
+	margin: 0px 0px 3px;
+	padding: 0px;
+}

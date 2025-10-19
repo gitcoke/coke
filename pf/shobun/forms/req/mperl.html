@@ -1,0 +1,183 @@
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+   <title>マーラーズ Perl</title>
+<!--google関連src 2018/09/27から↓-->
+<script type="text/javascript" src="https://www.cokes.jp/js/google20141004.js"></script>
+</head>
+<body><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5HZHF2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<h1>マーラーズ Perl</h1>
+CGIによるフォーム処理をカスタマイズするPerlプログラムを作成します。<br>
+フォームのHTMLは以下のように指定します:
+<blockquote>
+&lt;form action="/cgi-bin/gform.cgi" method="POST"&gt;<br>
+...<br>
+&lt;input type="hidden" name="req" value="Perlファイル名"&gt;<br>
+....<br>
+&lt;/form&gt;
+</blockquote>
+
+<form action="/cgi-bin/mperl.cgi" method="POST">
+
+<table border width="400" >
+<tr>
+<td>Perlファイル名</td>
+<td><input name="cgi" size="32" value="sample.pl"></td>
+</tr>
+
+<tr>
+<td COLSPAN="2" BGCOLOR="#CCFFFF">フォーム項目
+<br>※メールアドレスの変数名は<font color="#3333FF">電子メール</font><font color="#000000">に</font>する</td>
+</tr>
+
+<tr>
+<td>
+</td>
+
+<td>
+<table BORDER HEIGHT="100%" >
+<tr>
+<td>変数名</td>
+<td>必須</td>
+</tr>
+
+<tr>
+<td><input name="F01" size="32" value="電子メール"></td>
+<td><input name="R01" type="checkbox" checked></td>
+</tr>
+
+<tr>
+<td><input name="F02" size="32" value="名前"></td>
+<td><input name="R02" type="checkbox"></td>
+</tr>
+
+<tr>
+<td><input name="F03" size="32" value="郵便番号"></td>
+<td><input name="R03" type="checkbox"></td>
+</tr>
+
+<tr>
+<td><input name="F04" size="32" value="住所"></td>
+<td><input name="R04" type="checkbox"></td>
+</tr>
+
+<tr>
+<td><input name="F05" size="32"></td>
+<td><input name="R05" type="checkbox"></td>
+</tr>
+
+<tr>
+<td><input name="F06" size="32"></td>
+<td><input name="R06" type="checkbox"></td>
+</tr>
+
+<tr>
+<td><input name="F07" size="32"></td>
+<td><input name="R07" type="checkbox"></td>
+</tr>
+
+<tr>
+<td><input name="F08" size="32"></td>
+<td><input name="R08" type="checkbox"></td>
+</tr>
+
+<tr>
+<td><input name="F09" size="32"></td>
+<td><input name="R09" type="checkbox"></td>
+</tr>
+
+<tr>
+<td><input name="F10" size="32"></td>
+<td><input name="R10" type="checkbox"></td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td COLSPAN="2" BGCOLOR="#CCFFFF">フォーム項目の処理内容</td>
+</tr>
+
+<tr>
+<td><input name="smailto" type="checkbox">メール転送する</td>
+<td>メールアドレス:<br><input name="mailto" size="32" value="foo@shobunsha.co.jp"></td>
+</tr>
+
+<tr>
+<td><input name="scsv" type="checkbox">CSVファイルに保存する</td>
+<td>CSVファイル名:<br><input name="csv" size="32" value="dummy.dat"></td>
+</tr>
+
+<tr>
+<td><input name="smlist" type="checkbox">リストに登録する</td>
+<td>メーリングリスト名:<input name="mlist" size="32"></td>
+</tr>
+
+<tr>
+<td COLSPAN="2" BGCOLOR="#CCFFFF">ユーザーへの応答</td>
+</tr>
+
+<tr>
+<td>HTMLファイル名</td>
+<td><input name="html" size="32" value="thanks.html"></td>
+</tr>
+
+<tr>
+<td COLSPAN="2"><input name="rmail" type="checkbox">応答メールを送信する</td>
+</tr>
+
+<tr>
+<td>発信元メールアドレス</td>
+<td><input name="mailfrom" size="32" value="bar@shobunsha.co.jp"></td>
+</tr>
+
+<tr>
+<td>表題</td>
+<td><input name="subject" size="32" value="晶文社新刊案内"></td>
+</tr>
+
+<tr>
+<td COLSPAN="2">本文
+<br><textarea name="body" cols="50" rows="6" wrap>
+$FORM{'名前'}　様
+
+この度は、小社新刊案内の購読を
+お申\し込みいただきまして
+ありがとうございました。
+次号よりお送りさせていただきます。
+よろしくお願いいたします。
+
+晶文社営業部
+
+----------------------------
+以下の内容で受け付けました。
+----------------------------
+日時: $date
+
+氏名: $FORM{'名前'}
+メール: $FORM{'電子メール'}
+住所: 〒$FORM{'郵便番号1'}-$FORM{'郵便番号2'}
+      $FORM{'住所1'}
+      $FORM{'住所2'}
+年齢: $FORM{'年齢'}
+職業: $FORM{'職業'}
+
+講読紙: $FORM{'購読紙'}
+好きな本: $FORM{'好きな本'}
+
+===========
+株式会社晶文社　〒101-0021千代田区外神田2-1-12
+TEL 03-3255-4501
+http://www.shobunsha.co.jp/
+</textarea></td>
+</tr>
+</table>
+<br>
+<input type="submit" value="作成する">  <input type="reset" value="取り消し">
+</form>
+</body>
+</html>

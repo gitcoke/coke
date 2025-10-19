@@ -1,0 +1,126 @@
+﻿#previewFull {
+	background-color: #666666 !important;
+	width: 625px !important;
+	color: inherit;
+}
+#liveUpdateContactInfo {
+	color: #b3b3b3 !important;
+	background-color: inherit;
+}
+.borderRightDotted {
+	border-right: 1px dotted #787878 !important;
+}
+.logo {
+	display: none !important;
+}
+#liveUpdateCollectionDescription {
+	color: #b3b3b3 !important;
+	background-color: inherit;
+}
+.detailNav, .detailLinks, #detailCaption, #detailTitle {
+	color: #b3b3b3 !important;
+	background-color: inherit;
+}
+.emptyThumbnail {
+	background-color: #949494 !important;
+	color: inherit;
+}
+/*.thumbnail {
+	background-color: #949494 !important;
+	color: inherit;
+}*/
+.previewFullImage {
+	height: 300px !important;
+	width: 642px !important;
+}
+#stage2 {
+	width: 610px !important;
+}
+.itemNumber {
+	display: inherit !important;
+	color: #9c9c9c !important;
+	background-color: inherit;
+}
+#content {
+	background-color: #4c4c4c !important;
+	color: inherit;
+}
+.borderTopLeft {
+	border-top: 1px solid #787878 !important;
+	border-left: 1px solid #787878 !important;
+}
+#stage {
+	width: 645px !important;
+}
+#stage2012 {
+	width: 645px !important;
+}
+.caption {
+	color: #b3b3b3 !important;
+	background-color: inherit;
+}
+#wrapper2 {
+}
+.borderBottomRight {
+	border-right: 1px solid #787878 !important;
+	border-bottom: 1px solid #787878 !important;
+}
+#wrapper {
+}
+#liveUpdateCollectionTitle {
+	color: #b3b3b3 !important;
+	background-color: inherit;
+}
+.paginationLinks, .pagination, #liveUpdatePagination {
+	color: #b3b3b3 !important;
+	background-color: inherit;
+}
+.selectedThumbnail, .thumbnail:hover {
+	background-color: #a1a1a1 !important;
+	color: inherit;
+}
+#liveUpdateSiteTitle {
+	color: #b3b3b3 !important;
+	background-color: inherit;
+}
+.borderBottom {
+	border-bottom: 1px solid #787878 !important;
+}
+.borderRight {
+	border-right: 1px solid #787878 !important;
+}
+body {
+	background-color: #4c4c4c !important;
+	color: inherit;
+}
+#wrapper2 #stage2 #previewFull #port_sub {
+	letter-spacing: 1.2em;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font: 12px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	text-decoration: none;
+}
+#wrapper2 #stage2 #previewFull #port_sub a {
+	text-decoration: none;
+}
+.black {
+	color: #333;
+}
+#cap {
+	font-size: 9px;
+	float: left;
+	position: absolute;
+	width: 155px;
+	height: 40px;
+	top: 40px;
+	left: 480px;
+	right: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+#cap a {
+	font-size: 9px;
+	text-decoration: none;
+	line-height: 1.5em;
+}

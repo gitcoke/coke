@@ -1,0 +1,37 @@
+body {background-color: #F8F6EE;}
+/*vue pagenation用 */
+.pagination {
+  display: flex;
+	list-style: none;
+}
+.pagination > li:not(:last-child) {
+  margin-right: 10px;
+}
+.pagination__page {
+  display: block;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #222;
+  color: #222;
+}
+.pagination__page.is-current {
+  background: #0082F5;
+  border-color: #0082F5;
+  color: #fff;
+}
+.pagination__nav {
+  line-height: 30px;
+  text-decoration: none;
+  color: #222;
+}
+#p_block{
+  display: flex;
+  justify-content: center;
+  align-items: center; padding: 1em;
+	background-color:rgba(200,200,200,0.5);padding:1em;margin: 30px;width:600px;height: 30px;}
+#p_block:nth-child(n + 1){}
+
+#p_item_p,
+#p_item_n {padding: 1em;border: 1px #000 solid; margin: 1em;}

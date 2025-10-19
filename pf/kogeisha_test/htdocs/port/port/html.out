@@ -1,0 +1,2030 @@
+<?xml version="1.0"?>
+<files xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <file name="all-source.xml">
+    <photoCollection mode="publish">
+	<display>
+		<style cellBorderColor="#787878" cellRolloverColor="#a1a1a1" cssVersion="123183336213373340" idplateEnabled="false" css="     #previewFull {background-color: #666666 !important; width: 642px !important; color: inherit}     #liveUpdateContactInfo {color: #b3b3b3 !important; background-color: inherit;}     .borderRightDotted {border-right: 1px dotted #787878 !important;}     .logo {display: none !important;}     #liveUpdateCollectionDescription {color: #b3b3b3 !important; background-color: inherit;}     .detailNav, .detailLinks, #detailCaption, #detailTitle {color: #b3b3b3 !important; background-color: inherit;}     .emptyThumbnail {background-color: #949494 !important; color: inherit;}     .thumbnail {background-color: #949494 !important; color: inherit;}     .previewFullImage {height: 300px !important; width: 642px !important;}     #stage2 {width: 645px !important;}     .itemNumber {display: inherit !important; color: #9c9c9c !important; background-color: inherit;}     #content {background-color: #4c4c4c !important; color: inherit;}     .borderTopLeft {border-top: 1px solid #787878 !important; border-left: 1px solid #787878 !important;}     #stage {width: 645px !important;}     .caption {color: #b3b3b3 !important; background-color: inherit;}     #wrapper2 {width: 645px !important;}     .borderBottomRight {border-right: 1px solid #787878 !important; border-bottom: 1px solid #787878 !important;}     #wrapper {width: 645px !important;}     #liveUpdateCollectionTitle {color: #b3b3b3 !important; background-color: inherit;}     .paginationLinks, .pagination, #liveUpdatePagination {color: #b3b3b3 !important; background-color: inherit;}     .selectedThumbnail, .thumbnail:hover {background-color: #a1a1a1 !important; color: inherit;}     #liveUpdateSiteTitle {color: #b3b3b3 !important; background-color: inherit;}     .borderBottom {border-bottom: 1px solid #787878 !important;}     .borderRight {border-right: 1px solid #787878 !important;}     body {background-color: #4c4c4c !important; color: inherit;}    " identityPlateAbsolutePath="" numCols="4" numRows="4" homePage="index.html" imageBase="content" cellColor="#949494">
+		</style>
+		<metadata>
+			<creationDate formatted="Tue Jan 13 2009 16:56:02 GMT+0900"/>
+			<groupTitle value="&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;"/>
+			<contactInfo value="" link=""/>
+			<siteTitle value="Adobe Web Gallery"/>
+			<groupDescription value=""/>
+		</metadata>
+		<localization>
+			<item id="AdobeLightroomWebSite" localized="http://labs.adobe.com/technologies/lightroom/"/>
+			<item id="AdobeLightroomBeta" localized="Adobe Lightroom Beta"/>
+			<item id="Fullsize" localized="&#x30D5;&#x30EB;&#x30B5;&#x30A4;&#x30BA;"/>
+			<item id="Next" localized="&#x6B21;&#x3078;"/>
+			<item id="Previous" localized="&#x524D;&#x3078;"/>
+			<item id="EmptyGallery" localized="&#x3053;&#x306E;&#x30AE;&#x30E3;&#x30E9;&#x30EA;&#x30FC;&#x306B;&#x753B;&#x50CF;&#x306F;&#x3042;&#x308A;&#x307E;&#x305B;&#x3093;&#x3002;"/>
+			<item id="more" localized="&#x8A73;&#x7D30;"/>
+			<item id="Index" localized="&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;"/>
+		</localization>
+	</display>
+	<head>
+		<siteTitle/>
+		<collectionName/>
+		<collectionTitle/>
+		<collectionDescription/>
+		<contactInfo/>
+		<slideDuration/>
+		<sizes>
+			<size name="large" height="300" width="300"/>
+			<size name="thumb" height="129" width="129"/>
+		</sizes>
+	</head>
+	<samples totalGallerySize="16" firstSampleIndex="1">
+	<img orientation="BC" imageID="0_1231833362141" filename="AV">
+		<text>
+			<title/>
+			<description/>
+		</text>
+		<rendition path="content/bin/images/large/AV.jpg" height="216" width="300" size="large"/>
+		<rendition path="content/bin/images/thumb/AV.jpg" height="92" width="129" size="thumb"/>
+	</img>
+	<img orientation="BC" imageID="1_1231833362141" filename="cycle">
+		<text>
+			<title/>
+			<description/>
+		</text>
+		<rendition path="content/bin/images/large/cycle.jpg" height="219" width="300" size="large"/>
+		<rendition path="content/bin/images/thumb/cycle.jpg" height="94" width="129" size="thumb"/>
+	</img>
+	<img orientation="BC" imageID="2_1231833362142" filename="dnp">
+		<text>
+			<title/>
+			<description/>
+		</text>
+		<rendition path="content/bin/images/large/dnp.jpg" height="207" width="300" size="large"/>
+		<rendition path="content/bin/images/thumb/dnp.jpg" height="89" width="129" size="thumb"/>
+	</img>
+	<img orientation="BC" imageID="3_1231833362143" filename="FOODEX">
+		<text>
+			<title/>
+			<description/>
+		</text>
+		<rendition path="content/bin/images/large/FOODEX.jpg" height="217" width="300" size="large"/>
+		<rendition path="content/bin/images/thumb/FOODEX.jpg" height="93" width="129" size="thumb"/>
+	</img>
+	<img orientation="BC" imageID="4_1231833362144" filename="FOOMA">
+		<text>
+			<title/>
+			<description/>
+		</text>
+		<rendition path="content/bin/images/large/FOOMA.jpg" height="212" width="300" size="large"/>
+		<rendition path="content/bin/images/thumb/FOOMA.jpg" height="91" width="129" size="thumb"/>
+	</img>
+	<img orientation="BC" imageID="5_1231833362145" filename="GPJM">
+		<text>
+			<title/>
+			<description/>
+		</text>
+		<rendition path="content/bin/images/large/GPJM.jpg" height="199" width="300" size="large"/>
+		<rendition path="content/bin/images/thumb/GPJM.jpg" height="85" width="129" size="thumb"/>
+	</img>
+	<img orientation="BC" imageID="6_1231833362146" filename="hitachi">
+		<text>
+			<title/>
+			<description/>
+		</text>
+		<rendition path="content/bin/images/large/hitachi.jpg" height="225" width="300" size="large"/>
+		<rendition path="content/bin/images/thumb/hitachi.jpg" height="96" width="129" size="thumb"/>
+	</img>
+	<img orientation="BC" imageID="7_1231833362147" filename="hoya">
+		<text>
+			<title/>
+			<description/>
+		</text>
+		<rendition path="content/bin/images/large/hoya.jpg" height="225" width="300" size="large"/>
+		<rendition path="content/bin/images/thumb/hoya.jpg" height="96" width="129" size="thumb"/>
+	</img>
+	<img orientation="BC" imageID="8_1231833362147" filename="IBM">
+		<text>
+			<title/>
+			<description/>
+		</text>
+		<rendition path="content/bin/images/large/IBM.jpg" height="199" width="300" size="large"/>
+		<rendition path="content/bin/images/thumb/IBM.jpg" height="85" width="129" size="thumb"/>
+	</img>
+	<img orientation="BC" imageID="9_1231833362148" filename="IFF">
+		<text>
+			<title/>
+			<description/>
+		</text>
+		<rendition path="content/bin/images/large/IFF.jpg" height="217" width="300" size="large"/>
+		<rendition path="content/bin/images/thumb/IFF.jpg" height="93" width="129" size="thumb"/>
+	</img>
+	<img orientation="BC" imageID="10_1231833362149" filename="INCHEM">
+		<text>
+			<title/>
+			<description/>
+		</text>
+		<rendition path="content/bin/images/large/INCHEM.jpg" height="217" width="300" size="large"/>
+		<rendition path="content/bin/images/thumb/INCHEM.jpg" height="93" width="129" size="thumb"/>
+	</img>
+	<img orientation="BC" imageID="11_1231833362150" filename="korea">
+		<text>
+			<title/>
+			<description/>
+		</text>
+		<rendition path="content/bin/images/large/korea.jpg" height="225" width="300" size="large"/>
+		<rendition path="content/bin/images/thumb/korea.jpg" height="96" width="129" size="thumb"/>
+	</img>
+	<img orientation="BC" imageID="12_1231833362151" filename="nissei">
+		<text>
+			<title/>
+			<description/>
+		</text>
+		<rendition path="content/bin/images/large/nissei.jpg" height="225" width="300" size="large"/>
+		<rendition path="content/bin/images/thumb/nissei.jpg" height="96" width="129" size="thumb"/>
+	</img>
+	<img orientation="BC" imageID="13_1231833362152" filename="saison">
+		<text>
+			<title/>
+			<description/>
+		</text>
+		<rendition path="content/bin/images/large/saison.jpg" height="220" width="300" size="large"/>
+		<rendition path="content/bin/images/thumb/saison.jpg" height="94" width="129" size="thumb"/>
+	</img>
+	<img orientation="BC" imageID="14_1231833362153" filename="SEMICON">
+		<text>
+			<title/>
+			<description/>
+		</text>
+		<rendition path="content/bin/images/large/SEMICON.jpg" height="216" width="300" size="large"/>
+		<rendition path="content/bin/images/thumb/SEMICON.jpg" height="93" width="129" size="thumb"/>
+	</img>
+	<img orientation="BC" imageID="15_1231833362153" filename="SIEMENS">
+		<text>
+			<title/>
+			<description/>
+		</text>
+		<rendition path="content/bin/images/large/SIEMENS.jpg" height="199" width="300" size="large"/>
+		<rendition path="content/bin/images/thumb/SIEMENS.jpg" height="85" width="129" size="thumb"/>
+	</img>
+	</samples>
+	<siteParams>
+		<firstImage index="1"/>
+		<lastImage index="16"/>
+		<mode value="all"/>
+	</siteParams>
+</photoCollection>
+  </file>
+  <file name="content/123183336213373340_custom.css">     #previewFull {background-color: #666666 !important; width: 642px !important; color: inherit}     #liveUpdateContactInfo {color: #b3b3b3 !important; background-color: inherit;}     .borderRightDotted {border-right: 1px dotted #787878 !important;}     .logo {display: none !important;}     #liveUpdateCollectionDescription {color: #b3b3b3 !important; background-color: inherit;}     .detailNav, .detailLinks, #detailCaption, #detailTitle {color: #b3b3b3 !important; background-color: inherit;}     .emptyThumbnail {background-color: #949494 !important; color: inherit;}     .thumbnail {background-color: #949494 !important; color: inherit;}     .previewFullImage {height: 300px !important; width: 642px !important;}     #stage2 {width: 645px !important;}     .itemNumber {display: inherit !important; color: #9c9c9c !important; background-color: inherit;}     #content {background-color: #4c4c4c !important; color: inherit;}     .borderTopLeft {border-top: 1px solid #787878 !important; border-left: 1px solid #787878 !important;}     #stage {width: 645px !important;}     .caption {color: #b3b3b3 !important; background-color: inherit;}     #wrapper2 {width: 645px !important;}     .borderBottomRight {border-right: 1px solid #787878 !important; border-bottom: 1px solid #787878 !important;}     #wrapper {width: 645px !important;}     #liveUpdateCollectionTitle {color: #b3b3b3 !important; background-color: inherit;}     .paginationLinks, .pagination, #liveUpdatePagination {color: #b3b3b3 !important; background-color: inherit;}     .selectedThumbnail, .thumbnail:hover {background-color: #a1a1a1 !important; color: inherit;}     #liveUpdateSiteTitle {color: #b3b3b3 !important; background-color: inherit;}     .borderBottom {border-bottom: 1px solid #787878 !important;}     .borderRight {border-right: 1px solid #787878 !important;}     body {background-color: #4c4c4c !important; color: inherit;}    </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="index.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--padding for ie-->
+        </meta>
+        <meta name="KEYWORDS" content="photography,software,photos,digital darkroom,gallery,image,photographer">
+<!--padding for ie-->
+        </meta>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="content/123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      </script>
+        <script type="text/javascript" src="resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript" src="resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage">
+            <div id="index">
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='content/AV_large.html'">
+                <div class="itemNumber">1</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID0_1231833362141_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="content/AV_large.html" onclick="return needThumbImgLink;">
+                          <img src="content/bin/images/thumb/AV.jpg" id="ID0_1231833362141_thumb" alt="AV">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='content/cycle_large.html'">
+                <div class="itemNumber">2</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID1_1231833362141_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="content/cycle_large.html" onclick="return needThumbImgLink;">
+                          <img src="content/bin/images/thumb/cycle.jpg" id="ID1_1231833362141_thumb" alt="cycle">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='content/dnp_large.html'">
+                <div class="itemNumber">3</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID2_1231833362142_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="content/dnp_large.html" onclick="return needThumbImgLink;">
+                          <img src="content/bin/images/thumb/dnp.jpg" id="ID2_1231833362142_thumb" alt="dnp">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft borderRight  " onclick="window.location.href='content/FOODEX_large.html'">
+                <div class="itemNumber">4</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID3_1231833362143_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="content/FOODEX_large.html" onclick="return needThumbImgLink;">
+                          <img src="content/bin/images/thumb/FOODEX.jpg" id="ID3_1231833362143_thumb" alt="FOODEX">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="clear">
+<!--padding for ie-->
+              </div>
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='content/FOOMA_large.html'">
+                <div class="itemNumber">5</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID4_1231833362144_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="content/FOOMA_large.html" onclick="return needThumbImgLink;">
+                          <img src="content/bin/images/thumb/FOOMA.jpg" id="ID4_1231833362144_thumb" alt="FOOMA">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='content/GPJM_large.html'">
+                <div class="itemNumber">6</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID5_1231833362145_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="content/GPJM_large.html" onclick="return needThumbImgLink;">
+                          <img src="content/bin/images/thumb/GPJM.jpg" id="ID5_1231833362145_thumb" alt="GPJM">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='content/hitachi_large.html'">
+                <div class="itemNumber">7</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID6_1231833362146_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="content/hitachi_large.html" onclick="return needThumbImgLink;">
+                          <img src="content/bin/images/thumb/hitachi.jpg" id="ID6_1231833362146_thumb" alt="hitachi">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft borderRight  " onclick="window.location.href='content/hoya_large.html'">
+                <div class="itemNumber">8</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID7_1231833362147_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="content/hoya_large.html" onclick="return needThumbImgLink;">
+                          <img src="content/bin/images/thumb/hoya.jpg" id="ID7_1231833362147_thumb" alt="hoya">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="clear">
+<!--padding for ie-->
+              </div>
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='content/IBM_large.html'">
+                <div class="itemNumber">9</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID8_1231833362147_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="content/IBM_large.html" onclick="return needThumbImgLink;">
+                          <img src="content/bin/images/thumb/IBM.jpg" id="ID8_1231833362147_thumb" alt="IBM">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='content/IFF_large.html'">
+                <div class="itemNumber">10</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID9_1231833362148_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="content/IFF_large.html" onclick="return needThumbImgLink;">
+                          <img src="content/bin/images/thumb/IFF.jpg" id="ID9_1231833362148_thumb" alt="IFF">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='content/INCHEM_large.html'">
+                <div class="itemNumber">11</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID10_1231833362149_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="content/INCHEM_large.html" onclick="return needThumbImgLink;">
+                          <img src="content/bin/images/thumb/INCHEM.jpg" id="ID10_1231833362149_thumb" alt="INCHEM">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft borderRight  " onclick="window.location.href='content/korea_large.html'">
+                <div class="itemNumber">12</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID11_1231833362150_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="content/korea_large.html" onclick="return needThumbImgLink;">
+                          <img src="content/bin/images/thumb/korea.jpg" id="ID11_1231833362150_thumb" alt="korea">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="clear">
+<!--padding for ie-->
+              </div>
+              <div class="thumbnail borderTopLeft  borderBottom " onclick="window.location.href='content/nissei_large.html'">
+                <div class="itemNumber">13</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID12_1231833362151_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="content/nissei_large.html" onclick="return needThumbImgLink;">
+                          <img src="content/bin/images/thumb/nissei.jpg" id="ID12_1231833362151_thumb" alt="nissei">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft  borderBottom " onclick="window.location.href='content/saison_large.html'">
+                <div class="itemNumber">14</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID13_1231833362152_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="content/saison_large.html" onclick="return needThumbImgLink;">
+                          <img src="content/bin/images/thumb/saison.jpg" id="ID13_1231833362152_thumb" alt="saison">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft  borderBottom " onclick="window.location.href='content/SEMICON_large.html'">
+                <div class="itemNumber">15</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID14_1231833362153_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="content/SEMICON_large.html" onclick="return needThumbImgLink;">
+                          <img src="content/bin/images/thumb/SEMICON.jpg" id="ID14_1231833362153_thumb" alt="SEMICON">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft borderRight borderBottom " onclick="window.location.href='content/SIEMENS_large.html'">
+                <div class="itemNumber">16</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID15_1231833362153_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="content/SIEMENS_large.html" onclick="return needThumbImgLink;">
+                          <img src="content/bin/images/thumb/SIEMENS.jpg" id="ID15_1231833362153_thumb" alt="SIEMENS">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="clear">
+<!--padding for ie-->
+              </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/index.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--padding for ie-->
+        </meta>
+        <meta name="KEYWORDS" content="photography,software,photos,digital darkroom,gallery,image,photographer">
+<!--padding for ie-->
+        </meta>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      </script>
+        <script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript" src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage">
+            <div id="index">
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='AV_large.html'">
+                <div class="itemNumber">1</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID0_1231833362141_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="AV_large.html" onclick="return needThumbImgLink;">
+                          <img src="../content/bin/images/thumb/AV.jpg" id="ID0_1231833362141_thumb" alt="AV">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='cycle_large.html'">
+                <div class="itemNumber">2</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID1_1231833362141_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="cycle_large.html" onclick="return needThumbImgLink;">
+                          <img src="../content/bin/images/thumb/cycle.jpg" id="ID1_1231833362141_thumb" alt="cycle">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='dnp_large.html'">
+                <div class="itemNumber">3</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID2_1231833362142_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="dnp_large.html" onclick="return needThumbImgLink;">
+                          <img src="../content/bin/images/thumb/dnp.jpg" id="ID2_1231833362142_thumb" alt="dnp">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft borderRight  " onclick="window.location.href='FOODEX_large.html'">
+                <div class="itemNumber">4</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID3_1231833362143_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="FOODEX_large.html" onclick="return needThumbImgLink;">
+                          <img src="../content/bin/images/thumb/FOODEX.jpg" id="ID3_1231833362143_thumb" alt="FOODEX">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="clear">
+<!--padding for ie-->
+              </div>
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='FOOMA_large.html'">
+                <div class="itemNumber">5</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID4_1231833362144_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="FOOMA_large.html" onclick="return needThumbImgLink;">
+                          <img src="../content/bin/images/thumb/FOOMA.jpg" id="ID4_1231833362144_thumb" alt="FOOMA">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='GPJM_large.html'">
+                <div class="itemNumber">6</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID5_1231833362145_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="GPJM_large.html" onclick="return needThumbImgLink;">
+                          <img src="../content/bin/images/thumb/GPJM.jpg" id="ID5_1231833362145_thumb" alt="GPJM">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='hitachi_large.html'">
+                <div class="itemNumber">7</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID6_1231833362146_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="hitachi_large.html" onclick="return needThumbImgLink;">
+                          <img src="../content/bin/images/thumb/hitachi.jpg" id="ID6_1231833362146_thumb" alt="hitachi">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft borderRight  " onclick="window.location.href='hoya_large.html'">
+                <div class="itemNumber">8</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID7_1231833362147_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="hoya_large.html" onclick="return needThumbImgLink;">
+                          <img src="../content/bin/images/thumb/hoya.jpg" id="ID7_1231833362147_thumb" alt="hoya">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="clear">
+<!--padding for ie-->
+              </div>
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='IBM_large.html'">
+                <div class="itemNumber">9</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID8_1231833362147_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="IBM_large.html" onclick="return needThumbImgLink;">
+                          <img src="../content/bin/images/thumb/IBM.jpg" id="ID8_1231833362147_thumb" alt="IBM">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='IFF_large.html'">
+                <div class="itemNumber">10</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID9_1231833362148_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="IFF_large.html" onclick="return needThumbImgLink;">
+                          <img src="../content/bin/images/thumb/IFF.jpg" id="ID9_1231833362148_thumb" alt="IFF">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft   " onclick="window.location.href='INCHEM_large.html'">
+                <div class="itemNumber">11</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID10_1231833362149_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="INCHEM_large.html" onclick="return needThumbImgLink;">
+                          <img src="../content/bin/images/thumb/INCHEM.jpg" id="ID10_1231833362149_thumb" alt="INCHEM">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft borderRight  " onclick="window.location.href='korea_large.html'">
+                <div class="itemNumber">12</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID11_1231833362150_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="korea_large.html" onclick="return needThumbImgLink;">
+                          <img src="../content/bin/images/thumb/korea.jpg" id="ID11_1231833362150_thumb" alt="korea">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="clear">
+<!--padding for ie-->
+              </div>
+              <div class="thumbnail borderTopLeft  borderBottom " onclick="window.location.href='nissei_large.html'">
+                <div class="itemNumber">13</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID12_1231833362151_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="nissei_large.html" onclick="return needThumbImgLink;">
+                          <img src="../content/bin/images/thumb/nissei.jpg" id="ID12_1231833362151_thumb" alt="nissei">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft  borderBottom " onclick="window.location.href='saison_large.html'">
+                <div class="itemNumber">14</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID13_1231833362152_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="saison_large.html" onclick="return needThumbImgLink;">
+                          <img src="../content/bin/images/thumb/saison.jpg" id="ID13_1231833362152_thumb" alt="saison">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft  borderBottom " onclick="window.location.href='SEMICON_large.html'">
+                <div class="itemNumber">15</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID14_1231833362153_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="SEMICON_large.html" onclick="return needThumbImgLink;">
+                          <img src="../content/bin/images/thumb/SEMICON.jpg" id="ID14_1231833362153_thumb" alt="SEMICON">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail borderTopLeft borderRight borderBottom " onclick="window.location.href='SIEMENS_large.html'">
+                <div class="itemNumber">16</div>
+                <div onmouseover="window.gridOn( this.parentNode, 'ID15_1231833362153_thumb' );" onmouseout="window.gridOff( this.parentNode );" class="alignmentOuterGrid">
+                  <div class="alignmentMiddle">
+                    <div class="alignmentInner">
+                      <div class="AdjustZIndex">
+                        <a href="SIEMENS_large.html" onclick="return needThumbImgLink;">
+                          <img src="../content/bin/images/thumb/SIEMENS.jpg" id="ID15_1231833362153_thumb" alt="SIEMENS">
+<!--padding for ie-->
+                          </img>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="clear">
+<!--padding for ie-->
+              </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/AV_large.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "0_1231833362141" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+        <script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper2">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage2">
+            <div id="previewFull" class="borderTopLeft borderBottomRight">
+              <div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID0_1231833362141' );"> </div>
+              <div class="detailNav">
+                <ul>
+                  <li class="previous">&#x524D;&#x3078;</li>
+                  <li class="index">
+                    <a href="index.html" class="detailLinks">&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;</a>
+                  </li>
+                  <li class="next">
+                    <a class="detailLinks" href="cycle_large.html">&#x6B21;&#x3078;</a>
+                  </li>
+                </ul>
+              </div>
+              <div id="detailImage">
+                <a href="index.html">
+                  <img src="../content/bin/images/large/AV.jpg" width="300" height="216" id="ID0_1231833362141" alt="AV">
+<!--padding for ie-->
+                  </img>
+                </a>
+              </div>
+              <div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID0_1231833362141' );"> </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/cycle_large.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "1_1231833362141" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+        <script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper2">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage2">
+            <div id="previewFull" class="borderTopLeft borderBottomRight">
+              <div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID1_1231833362141' );"> </div>
+              <div class="detailNav">
+                <ul>
+                  <li class="previous">
+                    <a class="detailLinks" href="AV_large.html">&#x524D;&#x3078;</a>
+                  </li>
+                  <li class="index">
+                    <a href="index.html" class="detailLinks">&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;</a>
+                  </li>
+                  <li class="next">
+                    <a class="detailLinks" href="dnp_large.html">&#x6B21;&#x3078;</a>
+                  </li>
+                </ul>
+              </div>
+              <div id="detailImage">
+                <a href="index.html">
+                  <img src="../content/bin/images/large/cycle.jpg" width="300" height="219" id="ID1_1231833362141" alt="cycle">
+<!--padding for ie-->
+                  </img>
+                </a>
+              </div>
+              <div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID1_1231833362141' );"> </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/dnp_large.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "2_1231833362142" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+        <script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper2">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage2">
+            <div id="previewFull" class="borderTopLeft borderBottomRight">
+              <div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID2_1231833362142' );"> </div>
+              <div class="detailNav">
+                <ul>
+                  <li class="previous">
+                    <a class="detailLinks" href="cycle_large.html">&#x524D;&#x3078;</a>
+                  </li>
+                  <li class="index">
+                    <a href="index.html" class="detailLinks">&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;</a>
+                  </li>
+                  <li class="next">
+                    <a class="detailLinks" href="FOODEX_large.html">&#x6B21;&#x3078;</a>
+                  </li>
+                </ul>
+              </div>
+              <div id="detailImage">
+                <a href="index.html">
+                  <img src="../content/bin/images/large/dnp.jpg" width="300" height="207" id="ID2_1231833362142" alt="dnp">
+<!--padding for ie-->
+                  </img>
+                </a>
+              </div>
+              <div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID2_1231833362142' );"> </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/FOODEX_large.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "3_1231833362143" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+        <script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper2">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage2">
+            <div id="previewFull" class="borderTopLeft borderBottomRight">
+              <div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID3_1231833362143' );"> </div>
+              <div class="detailNav">
+                <ul>
+                  <li class="previous">
+                    <a class="detailLinks" href="dnp_large.html">&#x524D;&#x3078;</a>
+                  </li>
+                  <li class="index">
+                    <a href="index.html" class="detailLinks">&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;</a>
+                  </li>
+                  <li class="next">
+                    <a class="detailLinks" href="FOOMA_large.html">&#x6B21;&#x3078;</a>
+                  </li>
+                </ul>
+              </div>
+              <div id="detailImage">
+                <a href="index.html">
+                  <img src="../content/bin/images/large/FOODEX.jpg" width="300" height="217" id="ID3_1231833362143" alt="FOODEX">
+<!--padding for ie-->
+                  </img>
+                </a>
+              </div>
+              <div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID3_1231833362143' );"> </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/FOOMA_large.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "4_1231833362144" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+        <script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper2">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage2">
+            <div id="previewFull" class="borderTopLeft borderBottomRight">
+              <div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID4_1231833362144' );"> </div>
+              <div class="detailNav">
+                <ul>
+                  <li class="previous">
+                    <a class="detailLinks" href="FOODEX_large.html">&#x524D;&#x3078;</a>
+                  </li>
+                  <li class="index">
+                    <a href="index.html" class="detailLinks">&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;</a>
+                  </li>
+                  <li class="next">
+                    <a class="detailLinks" href="GPJM_large.html">&#x6B21;&#x3078;</a>
+                  </li>
+                </ul>
+              </div>
+              <div id="detailImage">
+                <a href="index.html">
+                  <img src="../content/bin/images/large/FOOMA.jpg" width="300" height="212" id="ID4_1231833362144" alt="FOOMA">
+<!--padding for ie-->
+                  </img>
+                </a>
+              </div>
+              <div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID4_1231833362144' );"> </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/GPJM_large.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "5_1231833362145" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+        <script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper2">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage2">
+            <div id="previewFull" class="borderTopLeft borderBottomRight">
+              <div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID5_1231833362145' );"> </div>
+              <div class="detailNav">
+                <ul>
+                  <li class="previous">
+                    <a class="detailLinks" href="FOOMA_large.html">&#x524D;&#x3078;</a>
+                  </li>
+                  <li class="index">
+                    <a href="index.html" class="detailLinks">&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;</a>
+                  </li>
+                  <li class="next">
+                    <a class="detailLinks" href="hitachi_large.html">&#x6B21;&#x3078;</a>
+                  </li>
+                </ul>
+              </div>
+              <div id="detailImage">
+                <a href="index.html">
+                  <img src="../content/bin/images/large/GPJM.jpg" width="300" height="199" id="ID5_1231833362145" alt="GPJM">
+<!--padding for ie-->
+                  </img>
+                </a>
+              </div>
+              <div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID5_1231833362145' );"> </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/hitachi_large.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "6_1231833362146" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+        <script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper2">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage2">
+            <div id="previewFull" class="borderTopLeft borderBottomRight">
+              <div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID6_1231833362146' );"> </div>
+              <div class="detailNav">
+                <ul>
+                  <li class="previous">
+                    <a class="detailLinks" href="GPJM_large.html">&#x524D;&#x3078;</a>
+                  </li>
+                  <li class="index">
+                    <a href="index.html" class="detailLinks">&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;</a>
+                  </li>
+                  <li class="next">
+                    <a class="detailLinks" href="hoya_large.html">&#x6B21;&#x3078;</a>
+                  </li>
+                </ul>
+              </div>
+              <div id="detailImage">
+                <a href="index.html">
+                  <img src="../content/bin/images/large/hitachi.jpg" width="300" height="225" id="ID6_1231833362146" alt="hitachi">
+<!--padding for ie-->
+                  </img>
+                </a>
+              </div>
+              <div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID6_1231833362146' );"> </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/hoya_large.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "7_1231833362147" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+        <script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper2">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage2">
+            <div id="previewFull" class="borderTopLeft borderBottomRight">
+              <div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID7_1231833362147' );"> </div>
+              <div class="detailNav">
+                <ul>
+                  <li class="previous">
+                    <a class="detailLinks" href="hitachi_large.html">&#x524D;&#x3078;</a>
+                  </li>
+                  <li class="index">
+                    <a href="index.html" class="detailLinks">&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;</a>
+                  </li>
+                  <li class="next">
+                    <a class="detailLinks" href="IBM_large.html">&#x6B21;&#x3078;</a>
+                  </li>
+                </ul>
+              </div>
+              <div id="detailImage">
+                <a href="index.html">
+                  <img src="../content/bin/images/large/hoya.jpg" width="300" height="225" id="ID7_1231833362147" alt="hoya">
+<!--padding for ie-->
+                  </img>
+                </a>
+              </div>
+              <div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID7_1231833362147' );"> </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/IBM_large.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "8_1231833362147" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+        <script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper2">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage2">
+            <div id="previewFull" class="borderTopLeft borderBottomRight">
+              <div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID8_1231833362147' );"> </div>
+              <div class="detailNav">
+                <ul>
+                  <li class="previous">
+                    <a class="detailLinks" href="hoya_large.html">&#x524D;&#x3078;</a>
+                  </li>
+                  <li class="index">
+                    <a href="index.html" class="detailLinks">&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;</a>
+                  </li>
+                  <li class="next">
+                    <a class="detailLinks" href="IFF_large.html">&#x6B21;&#x3078;</a>
+                  </li>
+                </ul>
+              </div>
+              <div id="detailImage">
+                <a href="index.html">
+                  <img src="../content/bin/images/large/IBM.jpg" width="300" height="199" id="ID8_1231833362147" alt="IBM">
+<!--padding for ie-->
+                  </img>
+                </a>
+              </div>
+              <div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID8_1231833362147' );"> </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/IFF_large.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "9_1231833362148" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+        <script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper2">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage2">
+            <div id="previewFull" class="borderTopLeft borderBottomRight">
+              <div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID9_1231833362148' );"> </div>
+              <div class="detailNav">
+                <ul>
+                  <li class="previous">
+                    <a class="detailLinks" href="IBM_large.html">&#x524D;&#x3078;</a>
+                  </li>
+                  <li class="index">
+                    <a href="index.html" class="detailLinks">&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;</a>
+                  </li>
+                  <li class="next">
+                    <a class="detailLinks" href="INCHEM_large.html">&#x6B21;&#x3078;</a>
+                  </li>
+                </ul>
+              </div>
+              <div id="detailImage">
+                <a href="index.html">
+                  <img src="../content/bin/images/large/IFF.jpg" width="300" height="217" id="ID9_1231833362148" alt="IFF">
+<!--padding for ie-->
+                  </img>
+                </a>
+              </div>
+              <div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID9_1231833362148' );"> </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/INCHEM_large.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "10_1231833362149" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+        <script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper2">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage2">
+            <div id="previewFull" class="borderTopLeft borderBottomRight">
+              <div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID10_1231833362149' );"> </div>
+              <div class="detailNav">
+                <ul>
+                  <li class="previous">
+                    <a class="detailLinks" href="IFF_large.html">&#x524D;&#x3078;</a>
+                  </li>
+                  <li class="index">
+                    <a href="index.html" class="detailLinks">&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;</a>
+                  </li>
+                  <li class="next">
+                    <a class="detailLinks" href="korea_large.html">&#x6B21;&#x3078;</a>
+                  </li>
+                </ul>
+              </div>
+              <div id="detailImage">
+                <a href="index.html">
+                  <img src="../content/bin/images/large/INCHEM.jpg" width="300" height="217" id="ID10_1231833362149" alt="INCHEM">
+<!--padding for ie-->
+                  </img>
+                </a>
+              </div>
+              <div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID10_1231833362149' );"> </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/korea_large.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "11_1231833362150" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+        <script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper2">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage2">
+            <div id="previewFull" class="borderTopLeft borderBottomRight">
+              <div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID11_1231833362150' );"> </div>
+              <div class="detailNav">
+                <ul>
+                  <li class="previous">
+                    <a class="detailLinks" href="INCHEM_large.html">&#x524D;&#x3078;</a>
+                  </li>
+                  <li class="index">
+                    <a href="index.html" class="detailLinks">&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;</a>
+                  </li>
+                  <li class="next">
+                    <a class="detailLinks" href="nissei_large.html">&#x6B21;&#x3078;</a>
+                  </li>
+                </ul>
+              </div>
+              <div id="detailImage">
+                <a href="index.html">
+                  <img src="../content/bin/images/large/korea.jpg" width="300" height="225" id="ID11_1231833362150" alt="korea">
+<!--padding for ie-->
+                  </img>
+                </a>
+              </div>
+              <div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID11_1231833362150' );"> </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/nissei_large.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "12_1231833362151" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+        <script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper2">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage2">
+            <div id="previewFull" class="borderTopLeft borderBottomRight">
+              <div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID12_1231833362151' );"> </div>
+              <div class="detailNav">
+                <ul>
+                  <li class="previous">
+                    <a class="detailLinks" href="korea_large.html">&#x524D;&#x3078;</a>
+                  </li>
+                  <li class="index">
+                    <a href="index.html" class="detailLinks">&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;</a>
+                  </li>
+                  <li class="next">
+                    <a class="detailLinks" href="saison_large.html">&#x6B21;&#x3078;</a>
+                  </li>
+                </ul>
+              </div>
+              <div id="detailImage">
+                <a href="index.html">
+                  <img src="../content/bin/images/large/nissei.jpg" width="300" height="225" id="ID12_1231833362151" alt="nissei">
+<!--padding for ie-->
+                  </img>
+                </a>
+              </div>
+              <div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID12_1231833362151' );"> </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/saison_large.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "13_1231833362152" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+        <script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper2">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage2">
+            <div id="previewFull" class="borderTopLeft borderBottomRight">
+              <div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID13_1231833362152' );"> </div>
+              <div class="detailNav">
+                <ul>
+                  <li class="previous">
+                    <a class="detailLinks" href="nissei_large.html">&#x524D;&#x3078;</a>
+                  </li>
+                  <li class="index">
+                    <a href="index.html" class="detailLinks">&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;</a>
+                  </li>
+                  <li class="next">
+                    <a class="detailLinks" href="SEMICON_large.html">&#x6B21;&#x3078;</a>
+                  </li>
+                </ul>
+              </div>
+              <div id="detailImage">
+                <a href="index.html">
+                  <img src="../content/bin/images/large/saison.jpg" width="300" height="220" id="ID13_1231833362152" alt="saison">
+<!--padding for ie-->
+                  </img>
+                </a>
+              </div>
+              <div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID13_1231833362152' );"> </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/SEMICON_large.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "14_1231833362153" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+        <script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper2">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage2">
+            <div id="previewFull" class="borderTopLeft borderBottomRight">
+              <div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID14_1231833362153' );"> </div>
+              <div class="detailNav">
+                <ul>
+                  <li class="previous">
+                    <a class="detailLinks" href="saison_large.html">&#x524D;&#x3078;</a>
+                  </li>
+                  <li class="index">
+                    <a href="index.html" class="detailLinks">&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;</a>
+                  </li>
+                  <li class="next">
+                    <a class="detailLinks" href="SIEMENS_large.html">&#x6B21;&#x3078;</a>
+                  </li>
+                </ul>
+              </div>
+              <div id="detailImage">
+                <a href="index.html">
+                  <img src="../content/bin/images/large/SEMICON.jpg" width="300" height="216" id="ID14_1231833362153" alt="SEMICON">
+<!--padding for ie-->
+                  </img>
+                </a>
+              </div>
+              <div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID14_1231833362153' );"> </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+  <file doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" doctype-public="-//W3C//DTD XHTML 1.1//EN" name="content/SIEMENS_large.html">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Adobe Lightroom"/>
+        <title>Adobe Web Gallery</title>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="123183336213373340_custom.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="../resources/css/master.css"/>
+        <script type="text/javascript">
+	  window.AgMode = "publish";
+      cellRolloverColor="#a1a1a1";
+      cellColor="#949494";
+      
+      window.AgOnLoad = function() {
+                        tellLightroomWhatImagesWeAreUsing(); 
+                        callCallback( "showInPhotoBin", "15_1231833362153" );callCallback( "setActiveImageSize", "large" );
+                }
+      </script>
+        <script type="text/javascript" src="../resources/js/liveUpdate.js">
+<!--padding for ie-->
+        </script>
+<!--[if lt IE 7.]> <script defer type="text/javascript"
+            src="../resources/js/pngfix.js"></script> <![endif]-->
+<!--[if gt IE 6]> <link rel="stylesheet" href="../resources/css/ie7.css"></link> <![endif]-->
+<!--[if lt IE 7.]> <link rel="stylesheet" href="../resources/css/ie6.css"></link> <![endif]-->
+      </head>
+      <body>
+        <div id="wrapper2">
+          <div id="sitetitle">
+            <h1 onclick="clickTarget( this, 'siteTitle.text' );" id="liveUpdateSiteTitle">Adobe Web Gallery</h1>
+          </div>
+          <div id="collectionHeader">
+            <h1 onclick="clickTarget( this, 'groupTitle.text' );" id="liveUpdateCollectionTitle">&#x65BD;&#x5DE5;&#x4E8B;&#x4F8B;</h1>
+            <p onclick="clickTarget( this, 'groupDescription.text' );" id="liveUpdateCollectionDescription"></p>
+          </div>
+          <div id="stage2">
+            <div id="previewFull" class="borderTopLeft borderBottomRight">
+              <div id="detailTitle" onclick="clickTarget( this, 'perImageSetting-title', 'ID15_1231833362153' );"> </div>
+              <div class="detailNav">
+                <ul>
+                  <li class="previous">
+                    <a class="detailLinks" href="SEMICON_large.html">&#x524D;&#x3078;</a>
+                  </li>
+                  <li class="index">
+                    <a href="index.html" class="detailLinks">&#x30A4;&#x30F3;&#x30C7;&#x30C3;&#x30AF;&#x30B9;</a>
+                  </li>
+                  <li class="next">&#x6B21;&#x3078;</li>
+                </ul>
+              </div>
+              <div id="detailImage">
+                <a href="index.html">
+                  <img src="../content/bin/images/large/SIEMENS.jpg" width="300" height="199" id="ID15_1231833362153" alt="SIEMENS">
+<!--padding for ie-->
+                  </img>
+                </a>
+              </div>
+              <div id="detailCaption" onclick="clickTarget( this, 'perImageSetting-description', 'ID15_1231833362153' );"> </div>
+            </div>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+          <div id="contact">
+            <a href="">
+              <span onclick="clickTarget( this, 'contactInfo.text' );" id="liveUpdateContactInfo"></span>
+            </a>
+          </div>
+          <div class="clear">
+<!--padding for ie-->
+          </div>
+        </div>
+      </body>
+    </html>
+  </file>
+</files>

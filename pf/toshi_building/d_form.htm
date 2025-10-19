@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<title>お問い合わせメールフォーム</title>
+<link href="toshi_building.css" rel="stylesheet" type="text/css">
+<link href="form_d.css" rel="stylesheet" type="text/css">
+<!--google関連src 2014/10/04から↓-->
+<script type="text/javascript" src="http://www.cokes.jp/js/google20141004.js"></script>
+</head>
+
+<body>
+
+
+<img src="img/d02mailformhead.jpg" width="500" height="50">
+<form action="htm/c/form.cgi" method="post"><table  border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="3">お問い合わせ内容をこちらに入力ください。</td>
+  </tr>
+  <tr>
+    <td width="200">&nbsp;</td>
+    <td colspan="2"><textarea name="contact" cols="50" rows="7"></textarea>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>お名前カタカナ</td>
+    <td>姓
+    <input type="text" name="k_l_name" size="14"></td>
+    <td>名
+      <input type="text" name="k_f_name" size="14"></td>
+  </tr>
+  <tr>
+    <td>お名前漢字</td>
+    <td>姓
+        <input name="l_name" type="text" size="14"></td>
+    <td>名
+        <input type="text" name="f_name" size="14"></td>
+  </tr>
+  <tr>
+    <td colspan="3">返信希望のものにチェックしてください。</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="2">        <input type="checkbox" name="checkbox" value="mail">
+      メール
+        　
+        <input type="checkbox" name="checkbox" value="phone">
+        電話      　
+        <input type="checkbox" name="checkbox" value="m_phone">
+  携帯電話
+        　
+        <input type="checkbox" name="checkbox" value="m_phone_mail">
+      携帯メール</td>
+  </tr>
+  <tr>
+    <td>メールアドレス</td>
+    <td colspan="2"><input name="mailad" type="text" id="mailad" size="50"></td>
+  </tr>
+  <tr>
+    <td>電話番号</td>
+    <td colspan="2"><input name="mailad" type="text" id="phone_no" size="50"></td>
+  </tr>
+  <tr>
+    <td>携帯電話番号</td>
+    <td colspan="2"><input name="mailad" type="text" id="m_phone_no" size="50"></td>
+  </tr>
+  <tr>
+    <td>携帯e-メール</td>
+    <td colspan="2"><input name="mailad" type="text" id="m_phone_mailad" size="50"></td>
+  </tr>
+  <tr align="center">
+    <td colspan="3">        <input type="submit" name="Submit" value="送信">
+    </td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+/* CSS Document */
+/*counsel/qa.php*/
+#index_talk1{background: url(../img/index_talk1.gif) no-repeat center bottom;margin:18px 0px 24px;}
+#case1_talk1{background: url(../img/case1_talk1.gif) no-repeat center;margin:0 0;}
+#case1_talk2{background: url(../img/case1_talk2.gif) no-repeat center;margin:0 0 36px;}
+#case2_talk1{background: url(../img/case2_talk1.gif) no-repeat center;margin:0 0;}
+#case2_talk2{background: url(../img/case2_talk2.gif) no-repeat center;margin:0 0 36px;}
+#case3_talk1{background: url(../img/case3_talk1.gif) no-repeat center;margin:0 0;}
+#case3_talk2{background: url(../img/case3_talk2.gif) no-repeat center;margin:0 0 36px;}
+#case4_talk1{background: url(../img/case4_talk1.gif) no-repeat center;margin:0 0;}
+#case4_talk2{background: url(../img/case4_talk2.gif) no-repeat center;margin:0 0 36px;}
+#case5_talk1{background: url(../img/case5_talk1.gif) no-repeat center;margin:0 0;}
+#case5_talk2{background: url(../img/case5_talk2.gif) no-repeat center;margin:0 0 36px;}
+#case6_talk1{background: url(../img/case6_talk1.gif) no-repeat center;margin:0 0;}
+#case6_talk2{background: url(../img/case6_talk2.gif) no-repeat center;margin:0 0 36px;}
+#case7_talk1{background: url(../img/case7_talk1.gif) no-repeat center;margin:0 0;}
+#case7_talk2{background: url(../img/case7_talk2.gif) no-repeat center;margin:0 0 36px;}
+#case8_talk1{background: url(../img/case8_talk1.gif) no-repeat center;margin:0 0;}
+#case8_talk2{background: url(../img/case8_talk2.gif) no-repeat center;margin:0 0 36px;}
+#case9_talk1{background: url(../img/case9_talk1.gif) no-repeat center;margin:0 0;}
+#case9_talk2{background: url(../img/case9_talk2.gif) no-repeat center;margin:0 0 36px;}
+
+.head646x186 span {
+/display:none; /* IE6&7用ハック */
+}
+.head646x153 span {
+/display:none; /* IE6&7用ハック */
+}
+
+.head646x186{height:0;overflow:hidden;margin:0;background-repeat:no-repeat;background-position: bottom;border-style:none;
+width:646px;padding:186px 0 0 0; /height: 186px; /padding:0;}/*見出し用　IDより前に記述の事*/ 
+
+.head646x153{height:0;overflow:hidden;margin:0;background-repeat:no-repeat;background-position: bottom;border-style:none;
+width:646px;padding:153px 0 0 0; /height: 153px; /padding:0;}/*見出し用　IDより前に記述の事*/ 
+

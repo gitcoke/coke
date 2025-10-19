@@ -1,0 +1,21 @@
+@charset "utf-8";
+table {
+	font-size: 12px;
+	_font-size: 10px;
+	line-height: 16px;
+	font-family: "ﾒｲﾘｵ", Osaka, "ヒラギノ角ゴ Pro W3";
+	width: 100%;
+	_width: 98%;
+}
+td {
+	border: 1px solid #FFFFFF;
+	padding: 2px;
+	background-image: url(images/e_tableBG01.png);
+	background-repeat: repeat;
+}
+col {
+	width: auto;
+}
+.bg_white {
+	background-image: none;
+}

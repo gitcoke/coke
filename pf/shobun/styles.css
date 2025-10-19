@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+.vue{
+	background-color:#fed;
+display:flex;
+justify-content: space-around;
+}
+.col {margin:0.5em 1em;padding:0.5em;
+	background-color:#ddd;
+	opacity:0.8;
+width:40vw;
+}
+
+div[id^="app"] { /* セレクタ名の前方一致 */
+ background-color: #ccc;
+ margin:0.5em;
+}
+.pend{font-size:0.5em;}

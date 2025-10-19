@@ -1,0 +1,217 @@
+.contents_a {
+	width: 800px;
+	position: static;
+	left: 1px;
+	height: 250px;
+	top: 161px;
+	border-bottom-color: #FF0000;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+
+.cont_top {
+	background-image: url(img/a_cont_top03.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	width: 392px;
+	height:  10px;
+}
+.cont_bottom {
+	background-image: url(img/a_cont_bottom03.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+	width: 392px;
+	height:  10px;
+}
+.cont_side {
+	background-image: url(img/a_cont_side03.gif);
+	background-repeat: repeat-y;
+	background-position: left bottom;
+	width: 392px;
+}
+.cont_H_side {
+	background-image: url(img/a_cont_H_side03.gif);
+	background-position: left top;
+	width: 392px;
+	font-size: 1.2em;
+}
+
+.cont_H_side12em{
+	background-image: url(img/a_cont_H_side03.gif);
+	background-position: left top;
+	width: 392px;
+	font-size: 1.2em;
+}
+
+.cont_top p { margin: 0px; }
+.cont_H_side p {
+	margin: 0px;
+	margin-right: 8px;
+	margin-left: 8px;
+	font-weight: bold;
+	text-align: justify;
+	padding-bottom: 4px;
+}
+
+.cont_H_side12em p {
+	margin: 0px;
+	text-align: center;
+	padding-bottom: 4px;
+}
+
+.cont_side p {
+	margin: 0px;
+	margin-right: 8px;
+	margin-left: 8px;
+	padding-top: 8px;
+}
+.cont_bottom p { margin: 0px; }
+
+.cont1 {float:left ;margin-top:8px;margin-right:20px;}
+.cont2 {
+	margin-top:-252px;
+	margin-right:20px;
+	float: left;
+}
+
+.cont_topL1 {
+	background-image: url(img/a_cont_topL103.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	width: 802px;
+	height:  10px;
+}
+.cont_bottomL1 {
+	background-image: url(img/a_cont_bottomL103.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+	width: 802px;
+	height:  12px;
+}
+.cont_sideL1 {
+	background-image: url(img/a_cont_sideL103.gif);
+	background-position: left top;
+	background-repeat: repeat-y;	
+	width: 802px;
+}
+.cont_H_sideL1 {
+	background-image: url(img/a_cont_H_sideL103.gif);
+	background-position: left top;
+	width: 802px;
+	background-repeat: repeat-y;
+		font-size: 1.2em;
+}
+.cont_topL1 p { margin: 0px; }
+.cont_H_sideL1 p {
+	margin: 0px;
+	margin-right: 8px;
+	margin-left: 8px;
+	font-weight: bold;
+	text-align: justify;
+	padding-bottom: 8px;
+}
+.cont_sideL1 p {
+	margin: 0px;
+	margin-right: 8px;
+	margin-left: 8px;
+	padding-top: 8px;
+}
+.cont_bottomL1 p { margin: 0px; }
+
+.cont_topL2 {
+	background-image: url(img/a_cont_topL203.gif);
+	background-repeat: no-repeat;
+	background-position: left  bottom;
+	width: 802px;
+	height:  10px;
+}
+.cont_bottomL2 {
+	background-image: url(img/a_cont_bottomL203.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+	width: 802px;
+	height:  10px;
+}
+.cont_sideL2 {
+	background-image: url(img/a_cont_sideL203.gif);
+	background-position: left top;
+	background-repeat: repeat-y;
+	width: 802px;
+}
+
+.cont_sideL2 p {
+	margin: 0px;
+	margin-right: 8px;
+	margin-left: 8px;
+	padding-top: 8px;
+}
+.cont_bottomL2 p { margin: 0px; }
+
+.1culm {
+	padding: 8px;
+	width: 350px;
+}
+.cont_topL3 {
+	width: 790px;
+	height:  15px;
+	background-color: #42A9CD;
+	border: 1px solid #000000;
+	vertical-align: middle;
+	padding: 5px;
+	margin-bottom: -4px;
+	color: #FFFFFF;
+}
+.cont_bottomL3 {
+	width: 790px;
+	vertical-align: middle;
+	margin-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border-top: 1px;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	border-left: 1px solid;
+}
+.02cont_topL2 {
+	background-image: url(img/a02_cont_topL2.gif);
+	background-repeat: no-repeat;
+	background-position: left  bottom;
+	width: 802px;
+	height:  50px;
+	text-indent: 20px;
+}
+.800w {
+	width: 800px;
+	clear: both;
+}
+.cont1-1{
+	position: relative;
+	/*top: 550px;
+}
+	.cont1-2{
+	position:absolute;
+	top: 550px;
+	left: 410px
+}
+.cont1-3{
+	position:absolute;
+	top: 850px;
+}
+	
+	.cont1-4{
+	position:absolute;
+	top: 762px;
+	left: 410px
+}
+	
+		.cont1-5{
+	position:absolute;
+	top: 1100px;*/
+}
+.cont1-2{top:0 !important;}
+
+.froatL {
+	float: right;
+}

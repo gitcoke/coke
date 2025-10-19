@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<mediaGroup>
+<amgVersion version="1.3"/>
+<groupInfo>
+<author/>
+<authorApplication>Lightroom 4.4</authorApplication>
+<creationDate>12/12/13, 04:43:22 &#x5348;&#x5F8C;</creationDate>
+<galleryMaker name="Adobe Flash Gallery" version="1.3"/>
+<groupData groupID="" groupName=""/>
+<authorID/>
+<custom>
+<groupTitle></groupTitle>
+<groupDescription>Adobe Lightroom &#x3067;&#x4F5C;&#x6210;&#x3057;&#x305F; Web &#x30D5;&#x30A9;&#x30C8;&#x30AE;&#x30E3;&#x30E9;&#x30EA;&#x30FC;&#x3067;&#x3059;&#x3002;</groupDescription>
+<siteTitle>2014 Kogeisha select photo</siteTitle>
+<contactName></contactName>
+<contactEmail>mailto:user@domain</contactEmail>
+</custom>
+</groupInfo>
+<sizes>
+<imageSize maxheight="96" maxwidth="96" size="thumb"/>
+<imageSize maxheight="450" maxwidth="800" size="small"/>
+<imageSize maxheight="520" maxwidth="1040" size="medium"/>
+<imageSize maxheight="650" maxwidth="1150" size="large"/>
+</sizes>
+<media totalGallerySize="5">
+<item>
+<title></title>
+<description>SONY DSC</description>
+<imageID id="9569" dbtype="Adobe Lightroom 3.0" dbname="main"/>
+<mediaType format="jpeg" category="image"/>
+<renditions>
+<rendition height="355" src="images/large/c.jpg" width="535" size="large"/>
+<rendition height="355" src="images/medium/c.jpg" width="535" size="medium"/>
+<rendition height="355" src="images/small/c.jpg" width="535" size="small"/>
+<rendition height="64" src="images/thumb/c.jpg" width="96" size="thumb"/>
+</renditions>
+</item>
+<item>
+<title></title>
+<description></description>
+<imageID id="9584" dbtype="Adobe Lightroom 3.0" dbname="main"/>
+<mediaType format="jpeg" category="image"/>
+<renditions>
+<rendition height="375" src="images/large/b.jpg" width="500" size="large"/>
+<rendition height="375" src="images/medium/b.jpg" width="500" size="medium"/>
+<rendition height="375" src="images/small/b.jpg" width="500" size="small"/>
+<rendition height="72" src="images/thumb/b.jpg" width="96" size="thumb"/>
+</renditions>
+</item>
+<item>
+<title></title>
+<description></description>
+<imageID id="9601" dbtype="Adobe Lightroom 3.0" dbname="main"/>
+<mediaType format="jpeg" category="image"/>
+<renditions>
+<rendition height="375" src="images/large/d.jpg" width="500" size="large"/>
+<rendition height="375" src="images/medium/d.jpg" width="500" size="medium"/>
+<rendition height="375" src="images/small/d.jpg" width="500" size="small"/>
+<rendition height="72" src="images/thumb/d.jpg" width="96" size="thumb"/>
+</renditions>
+</item>
+<item>
+<title></title>
+<description></description>
+<imageID id="9614" dbtype="Adobe Lightroom 3.0" dbname="main"/>
+<mediaType format="jpeg" category="image"/>
+<renditions>
+<rendition height="333" src="images/large/e.jpg" width="500" size="large"/>
+<rendition height="333" src="images/medium/e.jpg" width="500" size="medium"/>
+<rendition height="333" src="images/small/e.jpg" width="500" size="small"/>
+<rendition height="64" src="images/thumb/e.jpg" width="96" size="thumb"/>
+</renditions>
+</item>
+<item>
+<title></title>
+<description></description>
+<imageID id="9627" dbtype="Adobe Lightroom 3.0" dbname="main"/>
+<mediaType format="jpeg" category="image"/>
+<renditions>
+<rendition height="650" src="images/large/a.jpg" width="863" size="large"/>
+<rendition height="520" src="images/medium/a.jpg" width="691" size="medium"/>
+<rendition height="450" src="images/small/a.jpg" width="598" size="small"/>
+<rendition height="72" src="images/thumb/a.jpg" width="96" size="thumb"/>
+</renditions>
+</item>
+</media>
+</mediaGroup>

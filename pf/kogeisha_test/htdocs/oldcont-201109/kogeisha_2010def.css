@@ -1,0 +1,1392 @@
+#header {
+	height:73px;
+	display:block;
+	background: #ffffff;
+	padding: 0px;
+	margin: 0 auto;
+	width: 696px;
+	text-align: center;
+}
+#header h2 {
+	font-size: 9px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+#header em {
+	visibility: hidden;
+}
+#header a {
+	text-decoration: none;
+	display: block;
+	width: 116px;
+	height: 20px;
+	padding: 0px;
+	margin: 0px;
+}
+#header h2#tn1 a {
+	background: url(../images/navi01_s.jpg) no-repeat;
+}
+#header h2#tn1 a:hover, #header h2#tn1 a:active {
+	background: url(../images/navi01_s_f2.jpg) no-repeat;
+}
+#header h2#tn2 a {
+	background: url(../images/navi02_s.jpg) no-repeat;
+}
+#header h2#tn2 a:hover, #header h2#tn2 a:active {
+	background: url(../images/navi02_s_f2.jpg) no-repeat;
+}
+#header h2#tn3 a {
+	background: url(../images/navi03_s.jpg) no-repeat;
+}
+#header h2#tn3 a:hover, #header h2#tn3 a:active {
+	background: url(../images/navi03_s_f2.jpg) no-repeat;
+}
+#header h2#tn4 a {
+	background: url(../images/navi04_s.jpg) no-repeat;
+}
+#header h2#tn4 a:hover, #header h2#tn4 a:active {
+	background: url(../images/navi04_s_f2.jpg) no-repeat;
+}
+#header h2#tn5 a {
+	background: url(../images/navi05_s.jpg) no-repeat;
+}
+#header h2#tn5 a:hover, #header h2#tn5 a:active {
+	background: url(../images/navi05_s_f2.jpg) no-repeat;
+}
+#header h2#tn6 a {
+	background: url(../images/navi06_s.jpg) no-repeat;
+}
+#header h2#tn6 a:hover, #header h2#tn6 a:active {
+	background: url(../images/navi06_s_f2.jpg) no-repeat;
+}
+body {
+	background-color: #ffffff;
+	margin:0px;
+	padding:0px;
+}
+/*.p {
+	margin:0px;
+	padding:0px;
+	font-size: inherit;
+	font-family: inherit;
+	font-weight: inherit;
+	text-align: inherit;
+	color: inherit;
+	line-height: inherit;
+	vertical-align: top;
+}*/
+p {
+	padding-top:0px;
+	margin-top:0px;
+	color: #333333;
+}
+img {
+	border:0px;
+}
+div {
+}
+/*.AbsWrap {
+	width: 100%;
+	position: relative;
+}*/
+/*.rowWrap {
+	width: 100%;
+}*/
+.clearfloat {
+	clear:both;
+	height:0px;
+	margin: 0px;
+	padding: 0px;
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: #66CCFF;
+}
+#wapper {
+	margin: 0px auto;
+	border: 0px solid #f0f0f0;
+}
+/*#ex02_1_r2_c5 {
+	margin-left:0px;
+	margin-top:0px;
+	width:114px;
+	height:20px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+}*/
+
+/*#ex02_1_r2_c7 {
+	margin-left:0px;
+	margin-top:0px;
+	width:115px;
+	height:20px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+}*/
+
+/*fireworksが勝手に書いてくれて不要になったcss*/
+/*#navi01_s {
+	margin-left:50px;
+	margin-top:0px;
+	width:116px;
+	height:20px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+}
+#navi02_s {
+	margin-left:0px;
+	margin-top:0px;
+	width:116px;
+	height:20px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+}
+#navi03_s {
+	margin-left:0px;
+	margin-top:0px;
+	width:1px;
+	height:20px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+}
+
+#navi04_s {
+	margin-left:0px;
+	margin-top:0px;
+	width:1px;
+	height:20px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+}
+
+#navi05_s {
+	margin-left:0px;
+	margin-top:0px;
+	width:116px;
+	height:20px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+}
+#navi06_s {
+	margin-left:0px;
+	margin-top:0px;
+	width:116px;
+	height:20px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+}*/
+#mainContent {
+	width:696px;
+	height:730px;
+	display:block;
+	background: url(../images/mainCont_0909.jpg) repeat-y;
+	padding: 0px;
+	margin: auto;
+	clear: both;
+	z-index: 1;
+}
+#mainContent #info {
+	border-bottom: 1px solid #CCCCCC;
+	font-family: "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+	height: 363px;
+	overflow: auto;
+	width: 696px;
+}
+#mainContent #info h2 {
+	font: 20px/26px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	padding-top: 10px;
+	border-bottom: 2px solid #CCCCCC;
+}
+#mainContent #info p {
+	display: block;
+	margin: 0px 10px;
+	padding: 0px;
+	font: 12px/20px "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+}
+#mainContent #info table {
+	margin-right: 10px;
+	margin-left: 10px;
+	font: 10px "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+}
+#mainContent #access {
+	background: url(../images/map2.png) no-repeat center center;
+	_background: url(../images/png8/map.png) no-repeat center center;
+	margin: 0px;
+	padding: 0px;
+	width: 696px;
+	height: 366px;
+	_margin: 0px;
+	_padding: 0px;
+	_width: 696px;
+	_height: 366px;
+}
+#mainContent #recrute {
+	background: url(../images/recrute.png) no-repeat center top;
+	width: 666px;
+	margin: 0px;
+	padding: 20px 0px 0px 30px;
+	height: 
+	px;
+	_background: url(../images/png8/recrute.png) no-repeat center top;
+	_width: 666px;
+	_margin: 0px;
+	_padding: 50px 0px 0px 30px;
+	_height: 353px;
+}
+#mainContent #recrute table {
+	width: 581px;
+	margin: 30px 0px 0px 30px;
+	padding: 0px;
+	height: 100px;
+}
+*:first-child+html #mainContent #recrute table {
+	width: 581px;
+	/*_margin: 180px 0px 0px 0px;WinIE4〜6用ハック*/
+	margin: 50px 0px 0px 30px;
+	padding: 0px;
+	height: 100px;
+}
+#mainContent #recrute tr {
+	font-size: 10px;
+	margin: 0px;
+	padding: 0px;
+}
+#cont {
+	margin: auto;
+	padding: 0px;
+	background: #FFFFFF;
+	height: 600px;
+	width: 730px;
+}
+#Div {
+	border-bottom: 1px solid #CCCCCC;
+	width:696px;
+	display:block;
+	background: #FFFFFF;
+	margin: 6px auto;
+	font: 7px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	clear: both;
+}
+#mainContent #block1   {
+	font: 12px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	width: 33%;
+	padding: 0px 0px 10px;
+	margin: 33px 1px 10px;
+	height: 100%;
+	overflow: auto;
+	_width: 33%;
+	;
+	_padding: 75px 0px 0px;
+	_margin: 1px;
+	_background: url(../images/png8/maincont_box_gra.png) no-repeat center 40px;
+	_height: 256px;
+	_overflow: auto;
+	float: left;
+	display: inline-block;
+	clip: rect(-200px,auto,auto,auto);
+}
+
+#mainContent #block1 a {
+	color: #66CCFF;
+}
+#mainContent #block1 a:hover {
+	color: #FF0000;
+}
+#mainContent #block2   {
+	font: 12px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	float: left;
+	width: 33%;
+	_width: 32%;
+	margin: 0px;
+	padding: 40px 0px 20px;
+	background: url(../images/maincont_box_gra.png) no-repeat center bottom;
+	height: 266px;
+	_margin: 1px;
+	_padding: 75px 0px 0px;
+	_background: url(../images/png8/maincont_box_gra.png) no-repeat center bottom;
+	_height: 261px;
+}
+#mainContent #block2 li {
+	line-height: 16px;
+	color: #333333;
+	list-style: circle;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#mainContent #block3 {
+	font: 12px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	width: 33%;
+	padding: 0px 0px 10px;
+	margin: 33px 1px 10px;
+	height: 100%;
+	overflow: auto;
+	_width: 33%;
+	;
+	_padding: 75px 0px 0px;
+	_margin: 1px;
+	_background: url(../images/png8/maincont_box_gra.png) no-repeat center 40px;
+	_height: 256px;
+	_overflow: auto;
+	float: left;
+	display: inline-block;
+	clip: rect(-200px,auto,auto,auto);
+}
+#mainContent ul {
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 0px 5px 0px 25px;
+	color: #999;
+}
+
+
+#top_staff_img a {
+	text-decoration: none;
+	display: block;
+	padding: 10px 0px 0px;
+	margin: auto;
+	text-align: center;
+	background: url(../images/staff_top_img.png) no-repeat center center;
+	height: 75px;
+}
+#top_staff_img a:hover {
+	background: url(../images/staff_top_over.png) no-repeat center center;
+}
+#top_staff_img em {
+	visibility: hidden;
+}
+
+
+#top_staff_img2 a {
+	text-decoration: none;
+	display: block;
+	padding: 0px 0px 0px;
+	margin: 10px auto 0px;
+	text-align: center;
+	background: url(../images/staff_top_img2.png) no-repeat center center;
+	border: 1px solid #6CF;
+
+	width: 150px;
+	height: 114px;
+}
+#top_staff_img2 a:hover {
+	background: url(../images/staff_top_img2.png) no-repeat center center;
+	border: 1px solid #FF3333;
+}
+#top_staff_img2 em {
+	visibility: hidden;
+}
+
+
+#top_staff_img3 a {
+	text-decoration: none;
+	display: block;
+	padding: 0px 0px 0px;
+	margin: 10px auto 0px;
+	text-align: center;
+	background: url(../images/staff_top_img3.png) no-repeat center center;
+	border: 1px solid #6CF;
+
+	width: 150px;
+	height: 114px;
+}
+#top_staff_img3 a:hover {
+	background: url(../images/staff_top_img3.png) no-repeat center center;
+	border: 1px solid #FF3333;
+}
+#top_staff_img3 em {
+	visibility: hidden;
+}
+
+
+#ps {
+	font-size: 10px;
+	line-height: 14px;
+	padding: 4px 10px;
+	color: #666666;
+}
+#mainContent h2 {
+	font: bold 13px/28px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	color: #333333;
+	margin: 0px 10px;
+}
+#cont #mainContent #footeritem {
+	width: 516px;
+	font-family: "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+	padding: 30px 90px 0px;
+	margin: 0px;
+	overflow: auto;
+	height: 336px;
+}
+#cont #mainContent #footeritem h2 {
+	text-align: center;
+	color: #666666;
+	font: bold 18px "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+}
+#mainContent #footeritem p {
+	font: 12px/20px "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+}
+#mainContent #footeritem h3 {
+	font: normal 12px/24px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	width: 250px;
+	display: block;
+	float: left;
+	text-align: right;
+	margin-top: 18px;
+	padding-right: 0px;
+}
+#mainContent #footeritem h4 {
+	font: normal 12px/24px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	width: 250px;
+	display: block;
+	float: right;
+	padding: 0px;
+	margin: 18px 0px 0px;
+}
+#mainContent p {
+	font: 12px/16px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	margin: 0px 10px;
+}
+#pa {
+	font: normal 10px/16px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	color: #66CCFF;
+	margin-right: 10px;
+	margin-left: 10px;
+	display: inline-block;
+	clear: both;
+}
+#pa2 {
+	font: normal 10px/16px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	color: #66CCFF;
+	display: inline-block;
+	clear: both;
+	margin: 0px;
+}
+#pa3 {
+	font: normal 10px/16px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	color: #66CCFF;
+	display: inline-block;
+	clear: both;
+	margin: 0px;
+}
+#pa1 {
+	font: normal 10px/16px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	color: #66CCFF;
+	display: inline-block;
+	clear: both;
+	margin: 0px;
+}
+#Regular {
+	height: 126px;
+	width: 696px;
+	margin: auto;
+}
+#Regular h2 {
+	font: bold 11px/13px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	margin: 0px 0px 10px;
+	padding: 0px;
+	color: #333333;
+}
+#Regular #R_block1 {
+	width: 216px;
+	padding: 6px;
+	float: left;
+	font: 10px/14px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	color: #333333;
+	height: 108px;
+	border-top: 1px #CCCCCC;
+	border-right: 1px #CCCCCC;
+	border-bottom: 1px #CCCCCC;
+	border-left: 1px #CCCCCC;
+}
+#Regular #R_block2 {
+	width: 220px;
+	padding: 6px;
+	float: left;
+	font: 10px/14px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	color: #333333;
+	border: 1px solid #CCCCCC;
+	background: #CCCCCC;
+	height: 108px;
+}
+#Regular #R_block3 {
+	width: 216px;
+	padding: 7px;
+	float: left;
+	font: 10px/14px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	color: #333333;
+	height: 108px;
+	border-top: 1px #CCCCCC;
+	border-right: 1px #CCCCCC;
+	border-bottom: 1px #CCCCCC;
+	border-left: 1px #CCCCCC;
+}
+#Regular #R_block1e {
+	padding: 0px;
+	float: left;
+	font: 10px/14px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	color: #333333;
+	height: 108px;
+	border-top: 1px #CCCCCC;
+	border-right: 1px #CCCCCC;
+	border-bottom: 1px #CCCCCC;
+	border-left: 1px #CCCCCC;
+	margin: 0px;
+}
+#R_block1e img {
+	margin: 1px;
+	padding: 0px;
+	float: left;
+}
+#Regular #R_block2e {
+	padding: 0px;
+	float: left;
+	font: 10px/14px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	color: #333333;
+	margin: 55px 1px 0px;
+	_width:100px;
+}
+#Regular #R_block3e {
+	padding: 0px;
+	float: left;
+	font: 10px/14px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	color: #333333;
+	height: 108px;
+	border-top: 1px #CCCCCC;
+	border-right: 1px #CCCCCC;
+	border-bottom: 1px #CCCCCC;
+	border-left: 1px #CCCCCC;
+}
+#R_block3e img {
+	margin: 1px;
+}
+#footer {
+	width:730px;
+	height:23px;
+	display:block;
+	padding: 0px 0px 0px 0;
+	clear: none;
+	margin: 0px;
+	font: 9px/24px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	color: #FFFFFF;
+	background: #9F9F9F;
+}
+#footer a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #000000;
+}
+/*#footer h4 {
+	font: 11px/20px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	width: 70px;
+	border-left: 1px solid #FFFFFF;
+	top: 0px;
+	float: right;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	left: 0px;
+	right: 0px;
+	overflow: visible;
+	bottom: auto;
+	clear: right;
+}*/
+#footer #copyright {
+	float: left;
+	padding: 0px 0px 0px 10px;
+	margin: 0px;
+	font-size: 10px;
+	display: inline-block;
+}
+#footer #site_map {
+	float: right;
+	font-size: 9px;
+	color: #FFFFFF;
+	display: inline-block;
+	border-left: 1px solid #FFFFFF;
+	margin: 0px;
+	padding: 0px 10px;
+	clear: none;
+}
+#footer #policy {
+	float: right;
+	font-size: 9px;
+	color: #FFFFFF;
+	display: inline-block;
+	border-left: 1px solid #FFFFFF;
+	margin: 0px;
+	padding: 0px 10px;
+	clear: none;
+}
+#mainContent a:link {
+	color: #66CCFF;
+}
+#mainContent a:hover {
+	color: #FF3333;
+}
+#Regular a:link {
+	color: #66CCFF;
+}
+#Regular a:hover {
+	color: #FF3333;
+}
+#mainContent #staff {
+	margin: 0px auto;
+	width: 696px;
+	padding: 0px;
+	height: 363px;
+	overflow: auto;
+	z-index: 0;
+}
+#mainContent #staff #base1 {
+	height: 363px;
+	width: 696px;
+	margin: 0px 0px;
+	padding: 0px;
+	background: url(../images/staff_base1.png) no-repeat center;
+	_background: url(../images/png8/staff_base1.png) no-repeat center top;
+	_width: 696px;
+	_margin: 0px;
+	_padding: 0px;
+	_height: 353px;
+}
+#staff #base1 img {
+	float: left;
+	margin: 45px 10px 0px 160px;
+	_margin: 45px 10px 0px 160px;
+}
+#staff h1 {
+	font: 14px/24px "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 2px solid #666666;
+	display: block;
+}
+#staff #base1 p {
+	display: block;
+	margin: 0px auto;
+	padding: 0px;
+	font: 12px/18px "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+	text-align: left;
+	width: 370px;
+}
+#staff #base1 #footer2 {
+	text-align: center;
+	margin: 0px auto;
+	padding: 0px;
+	bottom: 0px;
+	width: 696px;
+	clear: both;
+}
+#staff h2 {
+	font: bold 18px/26px "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	color: #000000;
+}
+#staff #base1 #item {
+	height: 150px;
+	margin: 0px 100px 0px 0px;
+	_height: 150px;
+	_width: 374px;
+	_margin: 0px auto;
+	_padding-top: 34px;
+	padding: 50px 0px 0px;
+	text-align: left;
+	width: 220px;
+	float: left;
+}
+#staff #base2 {
+	height: 363px;
+	_height: 363px;
+	width: 676px;
+	_width: 676px;
+	background: url(../images/staff_base2.png) no-repeat center 0px;
+	_background: url(../images/png8/staff_base2.png) no-repeat left top;
+	margin: 0px;
+	padding: 0px;
+	_margin: 0px;
+	_padding: 0px;
+}
+#staff #base2 p {
+	display: block;
+	margin: 0px 10px 0px 0px;
+	padding: 0px;
+	font: 10px/18px "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+	text-align: left;
+}
+#staff #base2 #item {
+	width: 200px;
+	margin: 0px 24px;
+	padding-top: 10px;
+	_height: 100px;
+	_width: 200px;
+	_margin: 0px 0px 0px 0px;
+	_padding: 20px 0px 0px 46px;
+}
+#staff #base2 #footer2 {
+	margin: 0px;
+	bottom: 0px;
+	width: 676px;
+	text-align: center;
+	display: block;
+	height: 20px;
+	padding: 20px 0px 0px;
+	clear: both;
+	_margin: 0px;
+	_bottom: 0px;
+	_width: 676px;
+	_text-align: center;
+	_display: block;
+	_height: 20px;
+	_padding: 20px 0px 0px;
+	_clear: both;
+}
+#staff #base2 h1 {
+	font: 12px/18px "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+	margin: 0px;
+	padding: 20px 0px 0px;
+	border-bottom: 2px solid #666666;
+	height: 18px;
+	display: block;/*	width: 200px;
+*/}
+#staff #base2 h2 {
+	font: bold 14px/16px "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+	margin: 0px;
+	padding: 10px 0px 0px;
+	color: #000000;
+	display: block;
+}
+#staff #base2 #item2 {
+	width: 200px;
+	padding-top: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 24px;
+	_width: 200px;
+	_padding-top: 30px;
+	_float: left;
+	_margin-top: 0px;
+	_margin-bottom: 0px;
+	_margin-left: 22px;
+	float: left;
+	clear: left;
+}
+#staff #base2 #item3 {
+	width: 150px;
+	margin: 0px 0px 0px 10px;
+	float: left;
+	padding: 10px 0px 0px;
+	_width: 150px;
+	_margin: 0px 0px 0px 8px;
+	_float: left;
+	_padding: 10px 0px 0px;
+}
+#staff #base2 #item_L24 {
+	margin: 0px 0px 0px 24px;
+	float: left;
+	padding: 10px 0px 0px;
+	width: 150px;
+	_margin: 0px 0px 0px 20px;
+	_float: left;
+	_padding: 10px 0px 0px;
+	_width: 150px;
+}
+#staff #base2 h3 {
+	font: 12px/18px "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+	margin: 0px;
+	padding: 10px 0px 0px;
+	border-bottom: 1px solid #999999;
+	display: block;
+	height: 18px;
+}
+#staff #base2 #item2r {
+	width: 200px;
+	margin: 0px auto 0px 466px;
+	padding-top: 30px;
+	float: left;
+	_width: 200px;
+	_margin: 0px auto 0px 466px;
+	_padding-top: 30px;
+	_float: left;
+}
+#staff #base2 #item2_r {
+	width: 200px;
+	margin: 0px auto 0px 134px;
+	padding-top: 30px;
+	float: left;
+	_width: 200px;
+	_margin: 0px auto 0px 134px;
+	_padding-top: 30px;
+	_float: left;
+}
+#staff #base2 #item3colam {
+	width: 180px;
+	margin: 0px 0px 0px 39px;
+	padding-top: 10px;
+	float: left;
+	_width: 176px;
+	_margin: 0px 0px 0px 35px;
+	_padding-top: 10px;
+	_float: left;
+}
+#staff #base2 #item3_bb {
+	width: 150px;
+	margin: 0px 0px 0px 10px;
+	padding-top: 20px;
+	float: left;
+	_width: 150px;
+	_margin: 0px 0px 0px 10px;
+	_padding-top: 20px;
+	_float: left;
+}
+#english {
+	display: block;
+	text-align: center;
+	height: 30px;
+	margin: 0px auto;
+	padding: 0px;
+	clear: left;
+	border-style: none;
+}
+#english h2 {
+	font-size: 9px;
+	margin: 0px;
+	padding: 0px;
+}
+#english em {
+	visibility: hidden;
+}
+#english a {
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	height: 34px;
+}
+
+#english2 {
+	border-style: none;
+	position: relative;
+	text-align: center;
+	top: -15px;
+	clear: left;
+	padding: 0px;
+}
+#english2 h2 {
+	font-size: 9px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+#english2 em {
+	visibility: hidden;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+#english2 a {
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+	display: block;
+}
+
+
+#english h2#tn1 a {
+	background: url(../images/English_s.png) no-repeat center center;
+	border: 1px solid #CCCCCC;
+}
+#english h2#tn2 a {
+	background: url(../images/pdf_btn_s.png) no-repeat center center;
+	width: 116px;
+	text-decoration: none;
+	height: 24px;
+	border: 1px solid #CCCCCC;
+	clear: left;
+}
+#english h2#tn3 a {
+	background: url(../images/contactus_btn_s.png) no-repeat center center;
+	width: 116px;
+	text-decoration: none;
+	height: 24px;
+	border: 1px none #CCCCCC;
+	margin-top: 2px;
+	_margin-left: 0px;
+	margin-left: 1px;
+}
+#english2 h2 a {
+	background: url(../images/English_s.png) no-repeat center center;
+	border: 1px none #CCCCCC;
+	_margin-left: 0px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	height: 22px;
+}
+#english h2#tn1 a:hover {
+	background: url(../images/English_s_f2.png) no-repeat center center;
+	text-align: center;
+}
+#english h2#tn2 a:hover {
+	background: url(../images/pdf_btn_s_f2.png) no-repeat center center;
+}
+#english h2#tn3 a:hover {
+	background: url(../images/contactus_btn_s_f2.png) no-repeat center center;
+	border-style: none;
+}
+#english2 h2 a:hover {
+	background: url(../images/English_s_f2.png) no-repeat center center;
+	text-align: center;
+}
+#top_port_img {
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+#top_port_img em {
+	visibility: hidden;
+}
+#top_port_img a {
+	text-decoration: none;
+	display: block;
+	padding: 0px;
+	margin: 6px auto 0px;
+	text-align: center;
+	background: url(port/port/content/bin/images/large/semicon09_12_00.jpg) no-repeat center center;
+	width: 160px;
+	height: 160px;
+	border: 1px solid #6CF;
+
+}
+#top_port_img a:hover {
+	background: url(port/port/content/bin/images/large/semicon09_12_00.jpg) no-repeat center center;
+	border: 1px solid #FF3333;
+	width: 160px;
+	height: 160px;
+}
+*.e {
+	font-size: 12px;
+	line-height: 18px;
+}
+#mainContent #staff #base_top {
+	height: 363px;
+	width: 696px;
+	margin: 0px 0px;
+	padding: 0px;
+	background: url(../images/staff_base_top.png) no-repeat center;
+	_background: url(../images/png8/staff_base1.png) no-repeat center top;
+	_width: 696px;
+	_margin: 0px;
+	_padding: 0px;
+	_height: 353px;
+}
+#mainContent #staff #base_top2 {
+	height: 363px;
+	width: 696px;
+	margin: 0px;
+	padding: 0px;
+	background: url(../images/staff_base_top2.png) no-repeat center center;
+	_background: url(../images/png8/staff_base_top2.png) no-repeat center top;
+	_width: 696px;
+	_margin: 0px;
+	_padding: 0px;
+	_height: 363px;
+	_overflow: hidden;
+	overflow: hidden;
+}
+#staff #base_top #item {
+	width: 340px;
+	margin: 0;
+	border-style: none;
+	border-color: #FF0000;
+	float: left;
+	padding: 0px;
+	top: -38px;
+	position: relative;
+}
+#staff #base_top #item h2 {
+	float: left;
+	clear: left;
+	font-size: 13px;
+	line-height: 18px;
+	display: inline;
+}
+
+#staff #base_top img {
+	float: left;
+	margin: 20px 20px 0px 30px;
+	padding: 0px;
+}
+#staff #base_top #footer2 {
+	text-align: center;
+	margin: 0px auto;
+	padding: 0px;
+	bottom: 0px;
+	width: 696px;
+	clear: both;
+}
+#staff #base_top p {
+	font: 12px/17px "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+	float: left;
+	clear: both;
+	margin: 10px 0px 0px;
+	display: inline;
+}
+#staff #base_top #footer2 {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: none;
+	display: block;
+	top: -20px;
+	position: relative;
+}
+#staff #base_top #pickup_voice_title {
+	font: italic 34px "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+	color: #FFFFFF;
+	letter-spacing: -0.1em;
+	width: 290px;
+	_width: 290px;
+	height: 30px;
+	_height: 30px;
+	margin: 0px;
+	padding: 25px 0px -20px 30px;
+	_padding: 25px 0px -20px 30px;
+
+}
+.vol {
+	font: normal 14px "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+	margin: 0px;
+}
+/*top2用↓*/
+#staff #base_top2 #item {
+	width: 340px;
+	border-style: none;
+	border-color: #FF0000;
+	float: left;
+	padding: 0px 0px 0px 20px;
+	top: -30px;
+	position: relative;
+	clear: none;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 20;
+}
+#staff #base_top2 #item h2 {
+	float: left;
+	clear: left;
+	font-size: 13px;
+	line-height: 18px;
+	display: inline;
+}
+.staff_top2 {
+	background: url(../images/staff_base_top2.png) no-repeat center center;
+	_background: url(../images/png8/staff_base_top2.png) no-repeat center center;
+}
+#staff #base_top2 img {
+	float: left;
+	margin: 20px 20px 0px 30px;
+	padding: 0px;
+	height: 189px;
+	width: 250px;
+}
+#pickup_v2 {
+	margin: 10px 30px;
+}
+#staff #base_top2 #footer2 {
+	text-align: center;
+	margin: 0px auto;
+	padding: 0px;
+	bottom: 0px;
+	width: 696px;
+	clear: both;
+}
+#staff #base_top2 p {
+	font: 12px/17px "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+	float: left;
+	clear: both;
+	margin: 10px 0px 0px;
+	width: 340px;
+	display: block;
+}
+#staff #base_top2 #footer2 {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: none;
+	display: block;
+	top: -20px;
+	position: relative;
+}
+#staff #base_top2 #pickup_voice_title {
+	font: italic 34px "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+	color: #FFFFFF;
+	letter-spacing: -0.1em;
+	width: 390px;
+	_width: 390px;
+	clear: left;
+	height: 30px;
+	_height: 30px;
+	padding: 25px 0px 0px 30px;
+	_padding: 0px 0px -20px 30px;
+	margin: 0;
+}
+/*top2用↑*/
+#header2 {
+	font: bold 10px/12px "ＭＳ Ｐ明朝", "細明朝体", "ヒラギノ明朝 Pro W3";
+	text-align: center;
+	color: #666666;
+	width: 713px;
+	right: -15px;
+	padding-left: 70px;
+}
+.bold {
+	font-weight: bold;
+}
+.reg_color {
+	color: #333;
+}
+#staff0_img {
+	margin: 10px 10px 10px 0px;
+	padding: 0px;
+	display: block;
+	float: left;
+}
+#staff_top {
+	position: relative;
+	margin: 0px auto -24px;
+	text-align: center;
+	width: 600px;
+	padding: 24px 0px 0px;
+	height: 20px;
+}
+
+#wapper #cont #mainContent #port {
+	overflow: hidden;
+	height: 356px;
+	width: 696px;
+	text-align: center;
+	position: fixed;
+	clip: rect(-10px,auto,auto,auto);
+}
+.font_14px {
+	font-size: 14px;
+	line-height: 24px;
+}
+.overflow_hidden {
+	overflow: hidden;
+	position: static;
+	margin: 0px;
+	padding: 0px;
+	height: 363px;
+	width: 696px;
+	display: block;
+}
+#staff #base_top2 #pickup_v2 img{
+	padding: 10px 0px 0px;
+	float: left;
+	margin: 0px 0px 10px;
+	clear: left;
+}
+.right {
+	text-align: right;
+	display: block;
+}
+#staff #base_top2 #pickup_v2 #p {
+	padding: 0px;
+	float: left;
+	display: block;
+	font: 12px/15px "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	color: #000;
+	width: 365px;
+	margin: 10px 0px 10px 20px;
+}
+#staff #base_top2 #pickup_v2 #p2 {
+	color: #333;
+	display: block;
+	float: none;
+	font: 11px/16px "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	text-align: center;
+}
+#staff #base_top2 #pickup_v2 h2 {
+	float: right;
+	display: block;
+	top: 115px;
+	left: 410px;
+	text-align: right;
+	clear: both;
+	font: 13px/18px "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	width: 640px;
+	height: 0px;
+	margin: -35px 0px 0px;
+	padding: 0px;
+	
+	_float: right;
+	_display: block;
+	_top: 115px;
+	_left: 410px;
+	_text-align: right;
+	_margin-top: -35px;
+	_clear: both;
+	_font: 13px/18px "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	_width: 640px;
+	_height: 0px;
+	_margin: -35px 0px 0px;
+	_padding: 0px;
+}
+#right {
+	text-align: right;
+}
+#pickup_v2 #p #8pt {
+	font: 8px "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #F00;
+}
+.font_9px {
+	font: 9px/12px "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	vertical-align: bottom;
+}
+.bold_black {
+	color: #000;
+	font-weight: bold;
+}
+.center {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+	width: auto;
+}
+.noscroll {
+	overflow: hidden;
+}
+#google {
+	height: 80px;
+	width: 80px;
+	position: relative;
+	top: 266px;
+	left: 595px;
+	border: 1px solid #00F;
+	background: url(../images/access.png) no-repeat 0px 0px;
+}
+#header2 #op_replay {
+	color: #FFF;
+	text-decoration: none;
+	width: 100px;
+	border: 1px solid #FFF;
+	background: #CCC;
+	top: -1px;
+	height: 10px;
+	right: 15px;
+	float: right;
+	font: 9px/12px "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	left: -70px;
+	bottom: 0px;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+
+#header2 #op_replay a {
+	text-decoration: none;
+	color: #FFF;
+}
+#footer a {
+	color: #FFF;
+	text-decoration: none;
+}
+.reight_float {
+	float: right;
+	margin: -30px 0px 0px;
+	padding: 0px;
+}
+
+.left_float {
+	float: left;
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+	position: absolute;
+	top: 425px;
+}
+#mainContent #block1_end   {
+	font: 12px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	background: url(../images/maincont_box_gra.png) no-repeat left 100%;
+	height: 15px;
+	overflow: auto;
+	_width: 33%;
+	;
+	_padding: 75px 0px 0px;
+	_margin: 1px;
+	_background: url(../images/png8/maincont_box_gra.png) no-repeat center 40px;
+	_height: 256px;
+	_overflow: auto;
+	float: left;
+}
+#mainContent #block1_top   {
+	width: 100%;
+	padding: 0px;
+	margin: 0px 0px -270px;
+	background: url(../images/maincont_box_gra_tp.png) no-repeat 0px 0px;
+	height: 280px;
+	overflow: hidden;
+	_width: 33%;
+	;
+	_padding: 75px 0px 0px;
+	_margin: 1px;
+	_background: url(../images/png8/maincont_box_gra.png) no-repeat center 40px;
+	_height: 256px;
+	_overflow: auto;
+	display: inline-block;
+}
+#mainContent #block3_top {
+	width: 100%;
+	padding: 0px;
+	margin: 0px 0px -270px;
+	background: url(../images/maincont_box_gra_tp.png) no-repeat 0px 0px;
+	height: 280px;
+	overflow: hidden;
+	_width: 33%;
+	;
+	_padding: 75px 0px 0px;
+	_margin: 1px;
+	_background: url(../images/png8/maincont_box_gra.png) no-repeat center 40px;
+	_height: 256px;
+	_overflow: auto;
+	display: inline-block;
+}
+#mainContent #block3_end {
+	font: 12px "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	background: url(../images/maincont_box_gra.png) no-repeat left 100%;
+	height: 15px;
+	overflow: auto;
+	_width: 33%;
+	;
+	_padding: 75px 0px 0px;
+	_margin: 1px;
+	_background: url(../images/png8/maincont_box_gra.png) no-repeat center 40px;
+	_height: 256px;
+	_overflow: auto;
+	float: left;
+}

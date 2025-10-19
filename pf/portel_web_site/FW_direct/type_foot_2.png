@@ -1,0 +1,69 @@
+<!-- saved from url=(0014)about:internet -->
+<html>
+
+<head>
+
+<title>type_foot_2.png</title>
+
+<meta http-equiv="Content-Type" content="text/html;iso-8859-1">
+<meta name="description" content="FW MX CSS Layer">
+
+<style type="text/css">
+#typefoot2r1c1 {
+	position:absolute;
+	left:1px;
+	top:1px;
+	width:101px;
+	height:575px;
+	z-index:1;
+	visibility:visible;
+}
+#typefoot2r1c5 {
+	position:absolute;
+	left:921px;
+	top:1px;
+	width:101px;
+	height:575px;
+	z-index:2;
+	visibility:visible;
+}
+#typefoot2r2c3 {
+	position:absolute;
+	left:104px;
+	top:28px;
+	width:815px;
+	height:370px;
+	z-index:3;
+	visibility:visible;
+}
+#typefoot2r4c3 {
+	position:absolute;
+	left:104px;
+	top:399px;
+	width:815px;
+	height:158px;
+	z-index:4;
+	visibility:visible;
+}
+#typefoot2r5c3 {
+	position:absolute;
+	left:117px;
+	top:561px;
+	width:790px;
+	height:10px;
+	z-index:5;
+	visibility:visible;
+}
+</style>
+</head>
+
+<body bgcolor="#ffffff">
+
+<div id="typefoot2r1c1"><img name="type_foot_2_r1_c1" src="images/type_foot_2_r1_c1.png" width="101" height="575" border="0"></div>
+<div id="typefoot2r1c5"><img name="type_foot_2_r1_c5" src="images/type_foot_2_r1_c5.png" width="101" height="575" border="0"></div>
+<div id="typefoot2r2c3"><img name="type_foot_2_r2_c3" src="images/type_foot_2_r2_c3.png" width="815" height="370" border="0"></div>
+<div id="typefoot2r4c3"><img name="type_foot_2_r4_c3" src="images/type_foot_2_r4_c3.png" width="815" height="158" border="0"></div>
+<div id="typefoot2r5c3"><img name="type_foot_2_r5_c3" src="images/type_foot_2_r5_c3.png" width="790" height="10" border="0"></div>
+
+</body>
+</html>

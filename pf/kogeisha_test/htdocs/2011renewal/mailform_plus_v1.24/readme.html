@@ -1,0 +1,662 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="language" content="Japanese" />
+<meta name="copyright" content="http://www.xtrec.com/" />
+<meta name="author" content="HISABO" />
+<title>携帯対応埋め込み型PHPメールフォームスクリプトMailform+ Version1.24 説明書</title>
+<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+<body>
+<div id="wrapper">
+
+<h1>携帯対応埋め込み型PHPメールフォームスクリプト<br />Mailform+ Version1.24 説明書</h1>
+
+<div id="help">
+
+<div class="navi">
+<ul>
+<li><a href="#information">スクリプト情報</a></li>
+<li><a href="#setting">設定</a></li>
+<li><a href="#istyle">入力モード変換</a></li>
+<li><a href="#exsample">サンプルコード</a></li>
+<li><a href="#MT">For Movable Type</a></li>
+<li><a href="#WP">For Wordpress</a></li>
+<li><a href="#tag">テンプレートタグ</a></li>
+</ul>
+</div><!-- /navi -->
+
+<div id="information">
+<h2>INFORMATION</h2>
+<p>
+このスクリプトはページ埋め込み型メールフォームで,お好きな所に簡単に呼び出しできます。携帯端末対応ですので多くの使い道が期待できます。様々な入力チェックが出来るようになりました。
+また送信元のホスト情報等もメールにて本文表示するようになってます。Ver:1.23からセッション仕様に戻りました。様々な文字コードへの対応、独自テンプレートで楽々カスタマイズでフォーム項目追加もOK！<br />
+ページ埋め込みタイプだからサイトのデザインに合せて設置が可能です。
+</p>
+<h3>主な機能</h3>
+<ul class="list">
+<li>携帯端末対応</li>
+<li>携帯での入力モードの自動変換/PCでのIME入力モード自動変換</li>
+<li>スパム対策 (書込み禁止ホストの設定/禁止語句の設定)</li>
+<li>入力項目の柔軟な追加</li>
+<li>簡単な設定で豊富な入力チェック機能
+<ol>
+<li>入力必須項目設定</li>
+<li>メールアドレスチェック</li>
+<li>URLチェック</li>
+<li>日本語チェック</li>
+<li>郵便番号チェック</li>
+<li>電話番号チェック</li>
+<li>ひらがなチェック</li>
+<li>かたかなチェック</li>
+<li>半角英数字チェック</li>
+<li>半角数字チェック</li>
+<li>半角英字チェック</li>
+</ol>
+</li>
+<li>連続投稿規制/二重投稿防止</li>
+<li>独自テンプレートエンジンでデザインのカスタマイズが容易！PHPコードにも対応！</li>
+<li>受送信メール本文もテンプレートで楽々カスタマイズ！！</li>
+<li>様々な文字コードへの対応</li>
+</ul>
+</div>
+
+<div class="navi">
+<ul>
+<li><a href="#information">スクリプト情報</a></li>
+<li><a href="#setting">設定</a></li>
+<li><a href="#istyle">入力モード変換</a></li>
+<li><a href="#exsample">サンプルコード</a></li>
+<li><a href="#MT">For Movable Type</a></li>
+<li><a href="#WP">For Wordpress</a></li>
+<li><a href="#tag">テンプレートタグ</a></li>
+</ul>
+</div><!-- /navi -->
+
+<div id="setting" class="code">
+<h2>SETTING</h2>
+<ol>
+<li>
+<h3>先ず、/mfp/config.inc.phpを任意で設定します。※UTF対応のテキストエディタで開き、保存時はUTF-8(BOMなし)で保存してください。</h3>
+<pre>
+<span class="style4">// mfp/までのサーバーパスを設定します。基本はこのままでOK.</span>
+<span class="style2">define</span>(<span class="style1">&quot;SYSTEM_ROOT&quot;</span>, <span class="style2">dirname</span>(__FILE__) . <span class="style1">’/’</span>);<span class="style2">
+
+<span class="style4">// 日付フォーマットの設定。</span>
+define(</span><span class="style1">&quot;DATE_FORMAT&quot;</span><span class="style2">, </span><span class="style1">'Y年m月d日 H:i:s'</span><span class="style2">);
+</span>
+<span class="style4">//禁止語句を任意で設定します。複数の場合は半角カンマ(,)区切り。</span>
+<span class="style2">define</span>(<span class="style1">&quot;BAD_WORDS&quot;</span>, <span class="style1">''</span>);
+
+<span class="style4">//禁止ホストを任意で設定します。複数の場合は半角カンマ(,)区切り。</span>
+<span class="style2">define</span>(<span class="style1">&quot;BAD_HOST&quot;</span>, <span class="style1">''</span>);
+</pre>
+</li>
+<li>
+<h3>フォームの基本設定します。※必ずHTMLヘッダ出力前で設定してください。</h3>
+<pre>
+<span class="style4">// 最初にファイルをインクルードします。'/mfp/config.inc.php'までのサーバーパス</span>
+<span class="style3">include</span>(<span class="style2">getcwd</span>().<span class="style1">'/mfp/config.inc.php'</span>);
+
+<span class="style4">// 初期化</span>
+<strong>$config</strong> <span class="style2">=</span> <strong class="style2">array</strong>();
+
+<span class="style4">// メールフォームを設置するURLを設定します。</span>
+<strong>$config</strong>[<strong class="style1">'form_url'</strong>] <span class="style2">=</span> <span class="style1">'http://example.com/mail/'</span>;
+
+<span class="style4">// サイト名を設定します。※メール送信時に使用。</span>
+<strong>$config</strong>[<strong class="style1">'sitename'</strong>] 	<span class="style2">=</span> <span class="style1">'XTREC'</span>;
+
+<span class="style4"></span><span class="style4">// 送信先メールアドレスを設定。</span>
+<strong>$config</strong>[<strong class="style1">'recipient'</strong>] <strong class="style1"> </strong><span class="style2">=</span> <span class="style1">'mail@example.com'</span>;
+
+<span class="style4">// テンプレート用ディレクトリまでのサーバーパスを設定。</span><br /><strong>$config</strong>[<strong class="style1">'template_dir'</strong>] <span class="style2">=</span> SYSTEM_ROOT . <span class="style1">'template/'</span>;
+
+<span class="style4">// フォームのネーム属性を設定。※半角カンマ区切りで複数設定します。
+// ネーム属性とはテキストフィールドなら&lt;input type=&quot;text&quot; name=&quot;値&quot; value=&quot;&quot; /&gt;の「name=&quot;値&quot;」部分。</span>
+<strong>$config</strong>[<strong class="style1">'post_name'</strong>] <span class="style2">=</span> <span class="style1">'name,furigana,email,subject,body,drink'</span>;
+
+<span class="style4">// 送信元となるメールアドレスのネーム属性を設定。</span>
+<strong>$config</strong>[<strong class="style1">'from_email'</strong>] <span class="style2">=</span> <span class="style1">'email'</span>;
+
+<span class="style4">// 送信元となる名前のネーム属性を設定。</span>
+<strong>$config</strong>[<strong class="style1">'from_name'</strong>] <span class="style2">=</span> <span class="style1">'name'</span>;
+
+<span class="style4">// 送信者に自動返信メールを送信する場合は<strong>true</strong>、送信しない場合は<strong>空</strong></span>
+<strong>$config</strong>[<strong class="style1">'reply'</strong>] <span class="style2">=</span> <span class="style3">true</span>;
+
+<span class="style4">// 二重投稿防止のために投稿規制する時間（分）。設定しない場合は空または０</span>
+<strong>$config</strong>[<strong class="style1">'limit'</strong>] <span class="style2">=</span> <span class="style1">'30'</span>; <span class="style4">//30と入力した場合30分同一IPからの受付を拒否。</span>
+
+<span class="style4">// PHPスクリプト及び出力HTMLの文字コードを設定。</span>
+<strong>$config</strong>[<strong class="style1">'charset'</strong>] <span class="style2">=</span> <span class="style2"></span><strong>$carrier</strong> <span class="style2">!=</span> <span class="style1">'p'</span> <span class="style2">?</span> <span class="style1">'SJIS'</span> <span class="style2">:</span> <span class="style1">'UTF-8'</span>; <span class="style4">//HTML出力はPCはUTF-8,携帯はシフトJISの例。</span>
+
+<span class="style4">// 入力チェックを設定します。各チェックをしたい項目のネーム属性を入れると自動で入力チェックを行います。項目が複数の場合半角カンマ(,)区切り。</span>
+<strong>$config</strong>[<strong class="style1">'valid'</strong>] 	<span class="style2">=</span> <strong class="style2">array</strong>(
+					<strong class="style1">'requires'</strong> 	<span class="style2">=&gt;</span> 入力必須項目チェックをしたい項目のname属性を指定,
+					<strong class="style1">'email'</strong> 		<span class="style2">=&gt;</span> メールアドレスチェックをしたい項目のname属性を指定,
+					<strong class="style1">'url'</strong> 			<span class="style2">=&gt;</span> URLチェックをしたい項目のname属性を指定,
+					<strong class="style1">'zipcode'</strong> 	<span class="style2">=&gt;</span> 郵便番号チェックをしたい項目のname属性を指定,
+					<strong class="style1">'telephone'</strong> <span class="style2">=&gt;</span> 電話番号チェックをしたい項目のname属性を指定,
+					<strong class="style1">'japanese'</strong> 	<span class="style2">=&gt;</span> 日本語チェックをしたい項目のname属性を指定,
+					<strong class="style1">'hiragana'</strong> 	<span class="style2">=&gt;</span> ひらがなチェックをしたい項目のname属性を指定,
+					<strong class="style1">'katakana'</strong> 	<span class="style2">=&gt;</span> かたかなチェックをしたい項目のname属性を指定,
+					<strong class="style1">'numeric'</strong> 	<span class="style2">=&gt;</span> 半角数字チェックをしたい項目のname属性を指定,
+					<strong class="style1">'alnum'</strong> 		<span class="style2">=&gt;</span> 半角英数字チェックをしたい項目のname属性を指定,
+					<strong class="style1">'alphabet'</strong> 	<span class="style2">=&gt;</span> 半角英字チェックをしたい項目のname属性を指定,
+					<strong class="style1">'words'</strong> 		<span class="style2">=&gt;</span> config.inc.phpで設定した禁止語句チェックをしたい項目のname属性を指定,
+					); 
+<span class="style4">// ※上記以外にも自身で簡単に入力チェック項目を追加できます。※functions.php/validate参照。</span>
+
+<span class="style4">// 次に上記で設定した基本設定をMailform+へ読み込ませます。</span>
+<strong>$mailform</strong> <span class="style2">=</span> <span class="style3">new</span> <strong>MailFormPlus</strong>(<strong>$config</strong>, <span class="style1">XHTMLorHTML</span>);
+<span class="style4">// XHTMLorHTML部分はフォーム出力先がXHTMLだったらtrueまたは1、HTMLの場合はfalseまたは0を入力。PCはXHTMLで携帯はHTMLの場合は下記のようになります。
+// $mailform = new MailFormPlus($config, ($carrier == 'p' ? true : false));</span>
+</pre>
+</li>
+<li>
+<h3>フォームを表示させたい所にフォームを呼び出します。</h3>
+<pre><span class="style1">&lt;?php</span> $mailform<span class="style2">-&gt;</span><strong>formMethod</strong>(); <span class="style1">?&gt;</span></pre>
+</li>
+<li>
+<h3>フォーム用テンプレート(mfp/template/)を上記設定に習って編集します。</h3>
+</li>
+<li>
+<h3>最後に本体ディレクトリをサーバーへアップロードし、tmp/とlog/にパーミッション設定で書き込み権限を与えます（707/777等サーバー推奨値）。</h3>
+<pre class="dir">■<strong class="style3">mfp</strong>/
+┣ ■<strong class="style3">inc</strong>/ （言語＆関数ファイル）
+┃　　┣‥<span class="style2">functions.php</span> (本体用コード)
+┃　　┣‥<span class="style2">index.html</span> (ダミーファイル)
+┃　　┣‥<span class="style2">lang_en.php</span> (日本語用ファイル)
+┃　　┗‥<span class="style2">lang_ja.php</span> (英語用ファイル)
+┣ ■<strong class="style3">lib</strong>/ （ライブラリー）
+┃　　┣‥<span class="style2">class.mailform.php</span> (Mailform+本体)
+┃　　┣‥<span class="style2">class.template.php</span> (テンプレートエンジン)
+┃　　┣‥<span class="style2">class.xtmailer.php</span> (メール送信ライブラリ)
+┃　　┗‥<span class="style2">index.html</span> (ダミーファイル)
+┣ ■<strong class="style3">log</strong>/ (二重投稿防止用ログファイル格納ディレクトリ。<span class="style1">※パーミッションを707/777等</span>)
+┃　　┗‥<span class="style2">index.html</span> (ダミーファイル)
+┣ ■<strong class="style3">template</strong>/ (各テンプレート格納ディレクトリ)
+┃　　┣ ■<strong class="style3">mail</strong>/ (メール本文用テンプレート格納ディレクトリ。<span class="style1">※編集時は必ずUTF-8(BOMなし)で保存</span>)
+┃　　┃　　┣‥<span class="style2">body.tpl</span> (受信用本文テンプレート)
+┃　　┃　　┣‥<span class="style2">reply.tpl</span> (自動返信用本文テンプレート)
+┃　　┃　　┗‥<span class="style2">index.html</span> (ダミーファイル)
+┃　　┣‥<span class="style2">confirm.tpl</span> (PC用入力確認画面テンプレート)
+┃　　┣‥<span class="style2">form.tpl</span> (PC用入力フォーム画面テンプレート)
+┃　　┣‥<span class="style2">index.html</span> (ダミーファイル)
+┃　　┣‥<span class="style2">m_confirm.tpl</span> (携帯用入力確認画面テンプレート)
+┃　　┣‥<span class="style2">m_form.tpl</span> (携帯用入力フォーム画面テンプレート)
+┃　　┣‥<span class="style2">m_pre_success.tpl</span> (携帯用送信完了画面テンプレート<span class="style1"> ※header()関数で飛ばない場合用</span>
+┃　　┣‥<span class="style2">m_success.tpl</span> (携帯用送信完了画面テンプレート)
+┃　　┣‥<span class="style2">pre_success.tpl</span> (PC用送信完了画面テンプレート)<span class="style1"> ※header()関数で飛ばない場合用</span>
+┃　　┗‥<span class="style2">success.tpl</span> (PC用送信完了画面テンプレート)
+┣ ■<strong class="style3">tmp</strong>/ (セッションファイル格納ディレクトリ。<span class="style1">※パーミッションを707/777等</span>)
+┃　　┗‥<span class="style2">index.html</span> (ダミーファイル)
+┣‥<span class="style2">config.inc.php</span> (各種設定ファイル)
+┗‥<span class="style2">index.html</span> (ダミーファイル)
+</pre>
+</li>
+<li>
+<h3>設置例。</h3>
+<pre>
+<span class="style1">&lt;?php</span>
+<span class="style3">include</span>(<span class="style2">getcwd</span>().<span class="style1">'/mfp/config.inc.php'</span>);
+$config <span class="style2">=</span> <span class="style2">array</span>(
+			<span class="style1">'form_url'</span> 		<span class="style2">=&gt;</span> <span class="style1">'http://www/xtrec.com/mail/'</span>,
+			<span class="style1">'sitename'</span> 	<span class="style2">=&gt;</span> <span class="style1">'XTREC'</span>,
+			<span class="style1">'recipient'</span> 	<span class="style2">=&gt;</span> <span class="style1">'info@xtrec.com'</span>,
+			<span class="style1">'template'</span> 	<span class="style2">=&gt;</span> SYSTEM_ROOT . <span class="style1">'template/'</span>,
+			<span class="style1">'post_name'</span> 	<span class="style2">=&gt;</span> <span class="style1">&quot;name,furigana,email,subject,body,drink&quot;</span>,
+			<span class="style1">'from_email'</span> 	<span class="style2">=&gt;</span> <span class="style1">'email'</span>,
+			<span class="style1">'from_name'</span> 	<span class="style2">=&gt;</span> <span class="style1">'name'</span>,
+			<span class="style1">'reply'</span> 		<span class="style2">=&gt;</span> <span class="style3">true</span>,
+			<span class="style1">'limit'</span> 		<span class="style2">=&gt;</span> <span class="style1">'5'</span>,
+			<span class="style1">'charset'</span> 		<span class="style2">=&gt;</span> $carrier <span class="style2">!=</span> <span class="style1">'p'</span> <span class="style2">?</span> <span class="style1">'SJIS'</span> : <span class="style1">'UTF-8'</span>,
+			<span class="style1">'valid'</span> 		<span class="style2">=&gt;</span> <span class="style2">array</span>(
+								<span class="style1">'requires'</span> 		<span class="style2">=&gt;</span> <span class="style1">'name,furigana,email,subject,body'</span>,
+								<span class="style1">'email'</span> 		<span class="style2">=&gt;</span> <span class="style1">'email'</span>,
+								<span class="style1">'japanese'</span> 	<span class="style2">=&gt;</span> <span class="style1">'furigana,body'</span>,
+								<span class="style1">'words'</span> 		<span class="style2">=&gt;</span> <span class="style1">'body'</span>
+								)
+			);
+$mailform <span class="style2">=</span> <span class="style3">new</span> <strong>MailFormPlus</strong>($config, <span class="style1">1</span>);
+<span class="style1">?&gt;</span><br /><span class="style2">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;ja-JP&quot; lang=&quot;ja-JP&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+&lt;title&gt;</span>お問い合わせ｜XTREC<span class="style2">&lt;/title&gt;
+&lt;meta name=&quot;language&quot; content=&quot;Japanese&quot; /&gt;
+&lt;meta http-equiv=&quot;Content-Script-Type&quot; content=&quot;text/javascript&quot; /&gt;
+&lt;meta http-equiv=&quot;Content-Style-Type&quot; content=&quot;text/css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;</span>XTREC<span class="style2">&lt;/h1&gt;</span>
+<span class="style1">&lt;?php</span> $mailform<span class="style2">-&gt;</span><strong>formMethod</strong>(); <span class="style1">?&gt;</span>
+<span class="style2">&lt;/body&gt;
+&lt;/html&gt;
+</span></pre>
+</li>
+</ol>
+</div>
+
+<div class="navi">
+<ul>
+<li><a href="#information">スクリプト情報</a></li>
+<li><a href="#setting">設定</a></li>
+<li><a href="#istyle">入力モード変換</a></li>
+<li><a href="#exsample">サンプルコード</a></li>
+<li><a href="#MT">For Movable Type</a></li>
+<li><a href="#WP">For Wordpress</a></li>
+<li><a href="#tag">テンプレートタグ</a></li>
+</ul>
+</div><!-- /navi -->
+
+<div id="istyle" class="code">
+<h2>istyle(入力モード変換機能)</h2>
+<ol>
+<li>
+<h3>DoCoMoのistyleプロパティに沿ってPC/各携帯キャリアの入力モードに自動変換します。</h3>
+<table>
+<thead><tr><th>istyle属性値</th><th>入力モード</th></tr></thead>
+<tbody>
+<tr><th>1</th><td>全角かな</td></tr>
+<tr><th>2</th><td>全角カナ</td></tr>
+<tr><th>3</th><td>半角英字</td></tr>
+<tr><th>4</th><td>半角数字</td></tr>
+</tbody>
+</table>
+</li>
+<li>
+<h3>DoCoMo XHTMLの場合。※DoCoMoのHTML及びWILLCOMの場合は変換を行わずistyleのままです。</h3>
+<pre>
+<strong>istyle=&quot;1&quot;</strong>  <strong class="style2">ー (自動変換) →</strong>  <span class="style1">style=&quot;-wap-input-format:&amp;quot;*&amp;lt;ja:h&amp;gt;&amp;quot;;&quot;</span>
+<strong>istyle=&quot;2&quot;</strong>  <strong class="style2">ー (自動変換) →</strong>  <span class="style1">style=&quot;-wap-input-format:&amp;quot;*&amp;lt;ja:hk&amp;gt;&amp;quot;;&quot;</span>
+<strong>istyle=&quot;3&quot;</strong>  <strong class="style2">ー (自動変換) →</strong>  <span class="style1">style=&quot;-wap-input-format:&amp;quot;*&amp;lt;ja:en&amp;gt;&amp;quot;;&quot;</span>
+<strong>istyle=&quot;4&quot;</strong>  <strong class="style2">ー (自動変換) →</strong>  <span class="style1">style=&quot;-wap-input-format:&amp;quot;*&amp;lt;ja:n&amp;gt;&amp;quot;;&quot;</span>
+</pre>
+</li>
+<li>
+<h3>auの場合。</h3>
+<pre>
+<strong>istyle=&quot;1&quot;</strong>  <strong class="style2">ー (自動変換) →</strong>  <span class="style1">format=&quot;*M&quot;</span>
+<strong>istyle=&quot;2&quot;</strong>  <strong class="style2">ー (自動変換) →</strong>  <span class="style1">format=&quot;*M&quot;</span>
+<strong>istyle=&quot;3&quot;</strong>  <strong class="style2">ー (自動変換) →</strong>  <span class="style1">format=&quot;*m&quot;</span>
+<strong>istyle=&quot;4&quot;</strong>  <strong class="style2">ー (自動変換) →</strong>  <span class="style1">format=&quot;*N&quot;</span>
+</pre>
+</li>
+<li>
+<h3>Yahoo!ケータイ(Softbank端末)の場合。</h3>
+<pre>
+<strong>istyle=&quot;1&quot;</strong>  <strong class="style2">ー (自動変換) →</strong>  <span class="style1">mode=&quot;hiragana&quot;</span>
+<strong>istyle=&quot;2&quot; </strong> <strong class="style2">ー (自動変換) →</strong>  <span class="style1">mode=&quot;katakana&quot;</span>
+<strong>istyle=&quot;3&quot;</strong>  <strong class="style2">ー (自動変換) →</strong>  <span class="style1">mode=&quot;alphabet&quot;</span>
+<strong>istyle=&quot;4&quot;</strong>  <strong class="style2">ー (自動変換) →</strong>  <span class="style1">mode=&quot;numeric&quot;</span>
+</pre>
+</li>
+<li>
+<h3>PCの場合。※IEの独自CSSプロパティIMEモードに変換します。</h3>
+<pre>
+<strong>istyle=&quot;1&quot;</strong>  <strong class="style2">ー (自動変換) →</strong>  <span class="style1">style=&quot;ime-mode:active&quot;</span>
+<strong>istyle=&quot;2&quot;</strong>  <strong class="style2">ー (自動変換) →</strong>  <span class="style1">style=&quot;ime-mode:active&quot;</span>
+<strong>istyle=&quot;3&quot;</strong>  <strong class="style2">ー (自動変換) →</strong>  <span class="style1">style=&quot;ime-mode:inactive&quot;</span>
+<strong>istyle=&quot;4&quot;</strong>  <strong class="style2">ー (自動変換) →</strong>  <span class="style1">style=&quot;ime-mode:inactive&quot;</span>
+</pre>
+</li>
+</ol>
+</div>
+
+<div class="navi">
+<ul>
+<li><a href="#information">スクリプト情報</a></li>
+<li><a href="#setting">設定</a></li>
+<li><a href="#istyle">入力モード変換</a></li>
+<li><a href="#exsample">サンプルコード</a></li>
+<li><a href="#MT">For Movable Type</a></li>
+<li><a href="#WP">For Wordpress</a></li>
+<li><a href="#tag">テンプレートタグ</a></li>
+</ul>
+</div><!-- /navi -->
+
+<div id="exsample" class="code">
+<h2>exSAMPLE</h2>
+<ol>
+<li>
+<h3>一言フォーム ※一言メッセージ欄のみで確認画面なしの例</h3>
+<p>■テンプレートform.tpl</p>
+<pre>
+<span class="style4">&lt;form method=</span><span class="style2">&quot;post&quot;</span> <span class="style4">action=</span><span class="style2">&quot;{$config.form_url}&quot;</span><span class="style4">&gt;</span>
+<span class="style2">&lt;p&gt;</span><br /><span class="style4">&lt;label for=</span><span class="style2">&quot;message&quot;</span><span class="style4">&gt;</span>一言<span class="style4">&lt;/label&gt;</span><br /><span class="style5">&lt;!--if:$error.message--&gt;</span><span class="style2">&lt;span style=&quot;color</span><span class="style1">:</span><span class="style2">red</span><span class="style1">;</span><span class="style2">display</span><span class="style1">:</span><span class="style2">block&quot;&gt;</span>{$error.message}<span class="style2">&lt;/span&gt;</span><span class="style5">&lt;!--endif:$error.message--&gt;</span><br /><span class="style4">&lt;input name=</span><span class="style2">&quot;message&quot;</span> <span class="style4">id=</span><span class="style2">&quot;message&quot;</span> <span class="style4">type=</span><span class="style2">&quot;text&quot;</span> <span class="style4">value=</span><span class="style2">&quot;{$data.message}&quot;</span> <span class="style4">istyle=</span><span class="style2">&quot;1&quot;</span> <span class="style4">/&gt;</span><br /><span class="style5">&lt;!--if:$error.host--&gt;</span><span class="style2">&lt;span style=&quot;color</span><span class="style1">:</span><span class="style2">red</span><span class="style1">;</span><span class="style2">display</span><span class="style1">:</span><span class="style2">block&quot;&gt;</span>{$error.host}<span class="style2">&lt;/span&gt;</span><span class="style5">&lt;!--endif:$error.host--&gt;</span><br /><span class="style4">&lt;input type=</span><span class="style2">&quot;submit&quot;</span><span class="style4"> name=</span><span class="style2">&quot;submit&quot;</span><span class="style4"> value=</span><span class="style2">&quot;送信&quot;</span><span class="style4"> /&gt;</span>
+<span class="style5">&lt;!-- ↑確認画面を通さないで送信する場合は送信ボタンのname属性をsubmitとしてください --&gt;</span><br /><span class="style2">&lt;/p&gt;</span>
+<span class="style4">&lt;/form&gt;</span>
+</pre>
+<p>■埋込側PHP</p>
+<pre>
+<span class="style1">&lt;?php</span>
+<span class="style3">include</span>(<span class="style2">getcwd</span>().<span class="style1">'/mfp/config.inc.php'</span>);
+$config <span class="style2">=</span> <span class="style2">array</span>(
+			<span class="style1">'form_url'</span> 		<span class="style2">=&gt;</span> <span class="style1">'http://www/xtrec.com/mail/'</span>,
+			<span class="style1">'sitename'</span> 	<span class="style2">=&gt;</span> <span class="style1">'XTREC'</span>,
+			<span class="style1">'recipient'</span> 	<span class="style2">=&gt;</span> <span class="style1">'info@xtrec.com'</span>,
+			<span class="style1">'template'</span> 	<span class="style2">=&gt;</span> SYSTEM_ROOT . <span class="style1">'template/'</span>,
+			<span class="style1">'post_name'</span> 	<span class="style2">=&gt;</span> <span class="style1">&quot;message&quot;</span>,
+			<span class="style1">'limit'</span> 		<span class="style2">=&gt;</span> <span class="style1">'5'</span>,
+			<span class="style1">'charset'</span> 		<span class="style2">=&gt;</span> <span class="style1">'</span><span class="style1">UTF-8'</span>,
+			<span class="style1">'valid'</span> 		<span class="style2">=&gt;</span> <span class="style2">array</span>(
+								<span class="style1">'requires'</span> 		<span class="style2">=&gt;</span> <span class="style1">'message'</span>,
+								<span class="style1">'japanese'</span> 	<span class="style2">=&gt;</span> <span class="style1">'message'</span>
+								)
+			);
+$mailform <span class="style2">=</span> <span class="style3">new</span> <strong>MailFormPlus</strong>($config, <span class="style1">1</span>);
+<span class="style1">?&gt;</span><br /><span class="style2">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;ja-JP&quot; lang=&quot;ja-JP&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+&lt;title&gt;</span>一言メッセージ｜XTREC<span class="style2">&lt;/title&gt;
+&lt;meta name=&quot;language&quot; content=&quot;Japanese&quot; /&gt;
+&lt;meta http-equiv=&quot;Content-Script-Type&quot; content=&quot;text/javascript&quot; /&gt;
+&lt;meta http-equiv=&quot;Content-Style-Type&quot; content=&quot;text/css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;</span>XTREC<span class="style2">&lt;/h1&gt;</span>
+<span class="style1">&lt;?php</span> $mailform<span class="style2">-&gt;</span><strong>formMethod</strong>(); <span class="style1">?&gt;</span>
+<span class="style2">&lt;/body&gt;
+&lt;/html&gt;
+</span></pre>
+</li>
+<li>
+<h3>セレクトボックスやチェックボックスを使ったアンケート使用例</h3>
+<p>■form.tpl</p>
+<pre>
+<span class="style4">&lt;form method=</span><span class="style2">&quot;post&quot;</span> <span class="style4">action=</span><span class="style2">&quot;{$config.form_url}&quot;</span><span class="style4">&gt;</span>
+<span class="style2">&lt;dl&gt;<br />&lt;dt&gt;<span class="style4">&lt;label for=</span>&quot;name&quot;<span class="style4">&gt;</span></span>お名前<span class="style2"><span class="style4">&lt;/label&gt;</span>&lt;/dt&gt;<br />&lt;dd&gt;<span class="style5">
+&lt;!--if:$error.name--&gt;</span>&lt;span style=&quot;color<span class="style1">:</span>red<span class="style1">;</span>display<span class="style1">:</span>block&quot;&gt;{$error.name}&lt;/span&gt;<span class="style5">&lt;!--endif:$error.name--&gt;</span><br /><span class="style4">&lt;input name=</span>&quot;name&quot; <span class="style4">id=</span>&quot;name&quot; <span class="style4">type=</span>&quot;text&quot; <span class="style4">value=</span>&quot;{$data.name}&quot; <span class="style4">istyle=</span>&quot;1&quot; <span class="style4">/&gt;</span>
+&lt;/dd&gt;
+&lt;dt&gt;</span><span class="style4">&lt;label for=</span><span class="style2">&quot;search&quot;</span><span class="style4">&gt;</span>検索エンジンは主に何を使ってますか？<span class="style4">&lt;/label&gt;</span><span class="style2">&lt;/dt&gt;
+&lt;dd&gt;</span><span class="style5">&lt;!--if:$error.search--&gt;</span><span class="style2">&lt;span style=&quot;color</span><span class="style1">:</span><span class="style2">red</span><span class="style1">;</span><span class="style2">display</span><span class="style1">:</span><span class="style2">block&quot;&gt;</span>{$error.search}<span class="style2">&lt;/span&gt;</span><span class="style5">&lt;!--endif:$error.search--&gt;</span>
+<span class="style4">&lt;select name=</span><span class="style2">&quot;search&quot;</span><span class="style4"> id=</span><span class="style2">&quot;search&quot;</span><span class="style4">&gt;</span>
+<span class="style4">&lt;option value=</span><span class="style2">&quot;&quot;</span><span class="style4">&gt;</span>選択してください<span class="style4">&lt;/option&gt;</span>
+<span class="style4">&lt;option value=&quot;YAHOO!&quot;</span><span class="style1">&lt;?=</span>(<span class="style2">$this-&gt;</span><strong>assign</strong>[<span class="style1">'data'</span>][<span class="style1">'search'</span>] <span class="style2">==</span> <span class="style1">'YAHOO!'</span> <span class="style2">?</span> <span class="style1">' selected=&quot;selected&quot;'</span> <span class="style2">:</span> <span class="style1">''</span>);<span class="style1">?&gt;</span><span class="style4">&gt;</span>YAHOO!<span class="style4">&lt;/option&gt;</span>
+<span class="style4">&lt;option value=&quot;Google&quot;</span><span class="style1">&lt;?=</span>(<span class="style2">$this-&gt;</span><strong>assign</strong>[<span class="style1">'data'</span>][<span class="style1">'search'</span>] <span class="style2">==</span> <span class="style1">'Google'</span> <span class="style2">?</span> <span class="style1">' selected=&quot;selected&quot;'</span> <span class="style2">:</span> <span class="style1">''</span>);<span class="style1">?&gt;</span><span class="style4">&gt;</span>Google<span class="style4">&lt;/option&gt;</span>
+<span class="style4">&lt;option value=&quot;Bing&quot;</span><span class="style1">&lt;?=</span>(<span class="style2">$this-&gt;</span><strong>assign</strong>[<span class="style1">'data'</span>][<span class="style1">'search'</span>] <span class="style2">==</span> <span class="style1">'Bing'</span> <span class="style2">?</span> <span class="style1">' selected=&quot;selected&quot;'</span> <span class="style2">:</span> <span class="style1">''</span>);<span class="style1">?&gt;</span><span class="style4">&gt;</span>Bing<span class="style4">&lt;/option&gt;</span>
+<span class="style4">&lt;/select&gt;</span>
+<span class="style2">&lt;/dd&gt;
+&lt;dt&gt;</span>どんな時に検索エンジンを利用しますか？<span class="style2">&lt;br /&gt;</span>複数回答可<span class="style2">&lt;/dt&gt;</span>
+<span class="style2">&lt;dd&gt;</span>
+<span class="style5">&lt;!--if:$error.when--&gt;</span><span class="style2">&lt;span style=&quot;color</span><span class="style1">:</span><span class="style2">red</span><span class="style1">;</span><span class="style2">display</span><span class="style1">:</span><span class="style2">block&quot;&gt;</span>{$error.when}<span class="style2">&lt;/span&gt;</span><span class="style5">&lt;!--endif:$error.when--&gt;</span>
+<span class="style4">&lt;input type=</span><span class="style2">&quot;checkbox&quot;</span><span class="style4"> name=</span><span class="style2">&quot;when[]&quot;</span><span class="style4"> id=</span><span class="style2">&quot;item1&quot;</span><span class="style4"> value=</span><span class="style2">&quot;買い物&quot;</span><span class="style1">&lt;?=</span>(<strong>inArray</strong>(<span class="style1">'買い物'</span>, <span class="style2">$this-&gt;</span><strong>assign</strong>[<span class="style1">'data'</span>][<span class="style1">'when'</span>]) <span class="style2">?</span> <span class="style1">' checked=&quot;checked&quot;'</span> <span class="style2">:</span> <span class="style1">''</span>);<span class="style1">?&gt;</span> <span class="style4">/&gt;&lt;label for=</span><span class="style2">&quot;item1&quot;</span><span class="style4">&gt;</span>買い物<span class="style4">&lt;/label&gt;</span><span class="style2">&lt;br /&gt;</span>
+<span class="style4">&lt;input type=</span><span class="style2">&quot;checkbox&quot;</span><span class="style4"> name=</span><span class="style2">&quot;when[]&quot;</span><span class="style4"> id=</span><span class="style2">&quot;item2&quot;</span><span class="style4"> value=</span><span class="style2">&quot;天気予報&quot;</span><span class="style1">&lt;?=</span>(<strong>inArray</strong>(<span class="style1">'天気予報'</span>, <span class="style2">$this-&gt;</span><strong>assign</strong>[<span class="style1">'data'</span>][<span class="style1">'when'</span>]) <span class="style2">?</span> <span class="style1">' checked=&quot;checked&quot;'</span> <span class="style2">:</span> <span class="style1">''</span>);<span class="style1">?&gt;</span><span class="style4"> /&gt;&lt;label for=</span><span class="style2">&quot;item2&quot;</span><span class="style4">&gt;</span>天気予報<span class="style4">&lt;/label&gt;</span><span class="style2">&lt;br /&gt;</span>
+<span class="style4">&lt;input type=</span><span class="style2">&quot;checkbox&quot;</span><span class="style4"> name=</span><span class="style2">&quot;when[]&quot;</span><span class="style4"> id=</span><span class="style2">&quot;item3&quot;</span><span class="style4"> value=</span><span class="style2">&quot;乗換案内&quot;</span><span class="style1">&lt;?=</span>(<strong>inArray</strong>(<span class="style1">'乗換案内'</span>, <span class="style2">$this-&gt;</span><strong>assign</strong>[<span class="style1">'data'</span>][<span class="style1">'when'</span>]) <span class="style2">?</span> <span class="style1">' checked=&quot;checked&quot;'</span> <span class="style2">:</span> <span class="style1">''</span>);<span class="style1">?&gt;</span> <span class="style4">/&gt;&lt;label for=</span><span class="style2">&quot;item3&quot;</span><span class="style4">&gt;</span>乗換案内<span class="style4">&lt;/label&gt;</span><span class="style2">&lt;br /&gt;</span>
+<span class="style4">&lt;input type=</span><span class="style2">&quot;checkbox&quot;</span><span class="style4"> name=</span><span class="style2">&quot;when[]&quot;</span><span class="style4"> id=</span><span class="style2">&quot;item4&quot;</span><span class="style4"> value=</span><span class="style2">&quot;旅行&quot;</span><span class="style1">&lt;?=</span>(<strong>inArray</strong>(<span class="style1">'旅行'</span>, <span class="style2">$this-&gt;</span><strong>assign</strong>[<span class="style1">'data'</span>][<span class="style1">'when'</span>]) <span class="style2">?</span> <span class="style1">' checked=&quot;checked&quot;'</span> <span class="style2">:</span> <span class="style1">''</span>);<span class="style1">?&gt;</span> <span class="style4">/&gt;&lt;label for=</span><span class="style2">&quot;item4&quot;</span><span class="style4">&gt;</span>旅行<span class="style4">&lt;/label&gt;</span><span class="style2">&lt;br /&gt;</span>
+<span class="style4">&lt;input type=</span><span class="style2">&quot;checkbox&quot;</span><span class="style4"> name=</span><span class="style2">&quot;when[]&quot;</span><span class="style4"> id=</span><span class="style2">&quot;item5&quot;</span><span class="style4"> value=</span><span class="style2">&quot;その他&quot;</span><span class="style1">&lt;?=</span>(<strong>inArray</strong>(<span class="style1">'その他'</span>, <span class="style2">$this-&gt;</span><strong>assign</strong>[<span class="style1">'data'</span>][<span class="style1">'when'</span>]) <span class="style2">?</span> <span class="style1">' checked=&quot;checked&quot;'</span> <span class="style2">:</span> <span class="style1">''</span>);<span class="style1">?&gt;</span> <span class="style4">/&gt;&lt;label for=</span><span class="style2">&quot;item5&quot;</span><span class="style4">&gt;</span>その他<span class="style4">&lt;/label&gt;</span>
+<span class="style2">&lt;/dd&gt;
+&lt;/dl&gt;<br />&lt;p&gt;</span>
+<span class="style5">&lt;!--if:$error.host--&gt;</span><span class="style2">&lt;span style=&quot;color</span><span class="style1">:</span><span class="style2">red</span><span class="style1">;</span><span class="style2">display</span><span class="style1">:</span><span class="style2">block&quot;&gt;</span>{$error.host}<span class="style2">&lt;/span&gt;</span><span class="style5">&lt;!--endif:$error.host--&gt;</span>
+<span class="style4">&lt;input type=</span><span class="style2">&quot;submit&quot;</span><span class="style4"> name=</span><span class="style2">&quot;confirm&quot;</span><span class="style4"> value=</span><span class="style2">&quot;確認&quot;</span><span class="style4"> /&gt;</span>
+<span class="style2">&lt;/p&gt;</span>
+<span class="style4">&lt;/form&gt;</span>
+</pre>
+<p>■テンプレートconfig.tpl</p>
+<pre><span class="style2">&lt;dl&gt;
+&lt;dt&gt;</span>お名前<span class="style2">&lt;/dt&gt;
+&lt;dd&gt;</span>{$data.name}<span class="style2">&lt;/dd&gt;
+&lt;dt&gt;</span><span class="style4"></span><span class="style4"></span>検索エンジンは主に何を使ってますか？<span class="style4"></span><span class="style2">&lt;/dt&gt;
+&lt;dd&gt;</span><span class="style5"></span><span class="style2"></span>{$data.search}<span class="style2"></span><span class="style2">&lt;/dd&gt;
+&lt;dt&gt;</span>どんな時に検索エンジンを利用しますか？<span class="style2"></span><span class="style2">&lt;/dt&gt;</span>
+<span class="style2">&lt;dd&gt;</span><span class="style2"></span>{implode|$data.when}<span class="style2"></span><span class="style2">&lt;/dd&gt;
+&lt;/dl&gt;
+<span class="style4">&lt;form method=</span>&quot;post&quot; <span class="style4">action=</span>&quot;{$config.form_url}&quot;<span class="style4">&gt;</span><br />&lt;p&gt;</span>
+<span class="style5"></span><span class="style5"></span><span class="style4">&lt;input type=</span><span class="style2">&quot;submit&quot;</span><span class="style4"> name=</span><span class="style2">&quot;edit&quot;</span><span class="style4"> value=</span><span class="style2">&quot;修正&quot;</span><span class="style4"> /&gt;</span>
+<span class="style4">&lt;input type=</span><span class="style2">&quot;submit&quot;</span><span class="style4"> name=</span><span class="style2">&quot;send&quot;</span><span class="style4"> value=</span><span class="style2">&quot;送信&quot;</span><span class="style4"> /&gt;</span>
+<span class="style2">&lt;/p&gt;</span>
+<span class="style4">&lt;/form&gt;</span>
+</pre>
+  <p>■埋込側PHP</p>
+  <pre>
+<span class="style1">&lt;?php</span>
+<span class="style3">include</span>(<span class="style2">getcwd</span>().<span class="style1">'/mfp/config.inc.php'</span>);
+$config <span class="style2">=</span> <span class="style2">array</span>(
+			<span class="style1">'form_url'</span> 		<span class="style2">=&gt;</span> <span class="style1">'http://www/xtrec.com/mail/'</span>,
+			<span class="style1">'sitename'</span> 	<span class="style2">=&gt;</span> <span class="style1">'qnare'</span>,
+			<span class="style1">'recipient'</span> 	<span class="style2">=&gt;</span> <span class="style1">'info@xtrec.com'</span>,
+			<span class="style1">'template'</span> 	<span class="style2">=&gt;</span> SYSTEM_ROOT . <span class="style1">'template/'</span>,
+			<span class="style1">'post_name'</span> 	<span class="style2">=&gt;</span> <span class="style1">&quot;name&quot;</span>,
+			<span class="style1">'limit'</span> 		<span class="style2">=&gt;</span> <span class="style1">'5'</span>,
+			<span class="style1">'charset'</span> 		<span class="style2">=&gt;</span> <span class="style1">'</span><span class="style1">UTF-8'</span>,
+			<span class="style1">'valid'</span> 		<span class="style2">=&gt;</span> <span class="style2">array</span>(
+								<span class="style1">'requires'</span> 		<span class="style2">=&gt;</span> <span class="style1">'name,search,when'</span>,
+								)
+			);
+$mailform <span class="style2">=</span> <span class="style3">new</span> <strong>MailFormPlus</strong>($config, <span class="style1">1</span>);
+<span class="style1">?&gt;</span><br /><span class="style2">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;ja-JP&quot; lang=&quot;ja-JP&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+&lt;title&gt;</span>アンケートフォーム<span class="style2">&lt;/title&gt;
+&lt;meta name=&quot;language&quot; content=&quot;Japanese&quot; /&gt;
+&lt;meta http-equiv=&quot;Content-Script-Type&quot; content=&quot;text/javascript&quot; /&gt;
+&lt;meta http-equiv=&quot;Content-Style-Type&quot; content=&quot;text/css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;</span>アンケートフォーム<span class="style2">&lt;/h1&gt;</span>
+<span class="style1">&lt;?php</span> $mailform<span class="style2">-&gt;</span><strong>formMethod</strong>(); <span class="style1">?&gt;</span>
+<span class="style2">&lt;/body&gt;
+&lt;/html&gt;</span></pre>
+</li>
+</ol>
+</div>
+
+<div class="navi">
+<ul>
+<li><a href="#information">スクリプト情報</a></li>
+<li><a href="#setting">設定</a></li>
+<li><a href="#istyle">入力モード変換</a></li>
+<li><a href="#exsample">サンプルコード</a></li>
+<li><a href="#MT">For Movable Type</a></li>
+<li><a href="#WP">For Wordpress</a></li>
+<li><a href="#tag">テンプレートタグ</a></li>
+</ul>
+</div><!-- /navi -->
+
+<div id="MT" class="code">
+<h2>Movable Typeに組込</h2>
+<p>MTへの組み込みむ場合MTをPHP化してることが条件となります。<br />
+※組み込み例はMT5での例です。基本的に方法は一緒なので各バージョンに置き換えて参考にしてください。</p>
+<ol>
+<li>
+<h3>本体のアップロード</h3>
+<p>mfpディレクリ以下をサーバーへアップロードしパーミッション設定をます。<br />
+  ※パーミッション設定については設定(SETTING)の5を参照。</p>
+</li>
+<li>
+<h3>ウェブページ作成</h3>
+<p>「ウェブページ」→「新規」を選択し新しくページを作成します。<br />
+本文にフォーマットなしモードで下記通りメールフォーム呼び出しコードを記述しファイル名を「mail.php」、フォルダは初期の「/」とし下書き保存します。<br />
+※上記のファイル名、フォルダは仮で任意の設定で問題ありません。
+</p>
+<pre><span class="style1">&lt;?php</span> $mailform<span class="style2">-&gt;</span><strong>formMethod</strong>(); <span class="style1">?&gt;</span></pre>
+</li>
+<li>
+<h3>テンプレート編集</h3>
+<p>「デザイン」→「テンプレート」を選択し、アーカイブテンプレートの「ウェブページ」をクリック。<br />一番最初に下記のように設定を書きこみます。<br />
+※携帯用テンプレートを作成してる場合はそのファイルにも記述します。</p>
+<pre><span class="style1">&lt;?php</span>
+<span class="style3">if</span>(<span class="style2">$_SERVER</span>[<span class="style1">&quot;PHP_SELF&quot;</span>] <span class="style2">==</span> <span class="style1">'/mail.php'</span>) { <span class="style4">//1で設定したフォルダ/ファイル名を指定</span>
+	<span class="style3">include</span>(<span class="style2">getcwd</span>().<span class="style1">'/mfp/config.inc.php'</span>);
+	$config <span class="style2">=</span> <span class="style2">array</span>(
+    				<span class="style4">//～～～基本設定省略～～～。※設定方法・概要は設定(SETTING)の2を参照</span>
+				);
+	$mailform <span class="style2">=</span> <span class="style3">new</span> <strong>MailFormPlus</strong>($config, <span class="style1">1</span>);
+}
+<span class="style1">?&gt;</span>
+</pre>
+</li>
+<li>
+<h3>ウェブページの公開</h3>
+<p>2で下書き保存したページを公開にし、組み込み完了です。</p>
+</li>
+</ol>
+</div>
+
+<div class="navi">
+<ul>
+<li><a href="#information">スクリプト情報</a></li>
+<li><a href="#setting">設定</a></li>
+<li><a href="#istyle">入力モード変換</a></li>
+<li><a href="#exsample">サンプルコード</a></li>
+<li><a href="#MT">For Movable Type</a></li>
+<li><a href="#WP">For Wordpress</a></li>
+<li><a href="#tag">テンプレートタグ</a></li>
+</ul>
+</div><!-- /navi -->
+
+<div id="WP" class="code">
+<h2>Wordpressに組込</h2>
+<p>Wordpressに組み込む場合、本文にPHPコードが書けるようするExec-PHPやRunPHP、本文でpタグやbrタグの自動挿入を制御するWP clean excerptなどのプラグインを導入する必要があります。<br />
+プラグイン導入方法や設定方法は省略させていただきます。</p>
+<ol><li>
+<h3>本体のアップロード</h3>
+<p>mfpディレクリ以下をサーバーへアップロードしパーミッション設定をます。<br />
+※パーミッション設定については設定(SETTING)の5を参照。</p>
+</li>
+<li>
+<h3>ページ作成</h3>
+<p>「ページ」→「新規追加」を選択し新しくページを作成します。<br />
+本文にHTMLモードで下記通りメールフォーム呼び出しコードを記述しページスラッグを「contact」とし下書き保存します。<br />
+※上記のページスラッグは仮名で任意の設定で問題ありません。
+</p>
+<pre><span class="style1">&lt;?php</span>
+<strong>remove_filter</strong>(<span class="style1">'the_content'</span>, <span class="style1">'wpautop'</span>); <span class="style4">//WP clean excerptの関数でp/brタグの自動挿入を停止させます。</span>
+<span class="style2">$GLOBALS</span>[<span class="style1">'mailform'</span>]<span class="style2">-&gt;</span>wp <span class="style2">=</span> <span class="style3">true</span>; <span class="style4">//wordpress使ってますよという合図。</span>
+<span class="style2">$GLOBALS</span>[<span class="style1">'mailform'</span>]<span class="style2">-&gt;</span><strong>formMethod</strong><span class="style2">()</span>;
+<span class="style1">?&gt;</span></pre>
+</li>
+<li>
+<h3>テンプレート編集</h3>
+<p>「外観」→「編集」を選択し、ヘッダー(header.php)をクリック。<br />
+一番最初に下記のように設定を書きこみます。<br />
+Ktai Styleを使ってる方はKtai Styleの利用中のテーマ「header.php」にも記載します。<br />
+※Ktai Styleをアップデートするとテーマファイルも入れ替わる場合があります。その際は再度header.phpに記載する必要がありますのでご注意ください。</p>
+<pre><span class="style1">&lt;?php</span>
+$slug <span class="style2">=</span> <strong>attribute_escape</strong>($post<span class="style2">-&gt;</span><strong>post_name</strong>); <span class="style4">//現在のページのスラッグ名を読み出し$slugに入れます。</span><br /><span class="style3">if</span>($slug <span class="style2">==</span> <span class="style1">'contact'</span>) { <span class="style4">//1で設定したスラッグ名を指定</span>
+	<span class="style3">include</span>(<span class="style2">getcwd</span>().<span class="style1">'/mfp/config.inc.php'</span>);
+	$config <span class="style2">=</span> <span class="style2">array</span>(
+				<span class="style1">'form_url'</span> =&gt; <strong>get_bloginfo</strong>(<span class="style1">'url'</span>).<span class="style1">'/contact/'</span>, <span class="style4">//2で下書き保存したページのパーマリンクを指定</span>
+				<span class="style1">'sitename'</span> =&gt; <strong>get_bloginfo</strong>(<span class="style1">'name'</span>), <span class="style4">//Wordpressの一般設定で登録されているブログタイトル</span>
+				<span class="style1">'recipient'</span> =&gt; <strong>get_bloginfo</strong>(<span class="style1">'admin_email'</span>), <span class="style4">//Wordpressの一般設定で登録されているメールアドレス</span>
+    				<span class="style4">//～～～以下省略※設定方法・概要は設定(SETTING)の2を参照～～～。</span>
+				);
+	<span class="style2">$GLOBALS</span>[<span class="style1">'mailform'</span>] <span class="style2">=</span> <span class="style3">new</span> <strong>MailFormPlus</strong>($config, <span class="style1">1</span>);
+}
+<span class="style1">?&gt;</span>
+</pre>
+</li>
+<li>
+<h3>ページの公開</h3>
+<p>2で下書き保存したページを公開にし、組み込み完了です。</p>
+</li>
+<li>
+<h3>Wordpressでの注意点</h3>
+<p>Wordpressでは<strong class="style1">name属性値(<span class="style5">&lt;input type=&quot;text&quot;</span> <span class="style5">name=&quot;</span>ここ<span class="style5">&quot; /&gt;</span>)にnameが利用できません</strong>。他にも使えない属性値があるかもしれませんのでご注意ください。<br />
+携帯表示ではKtai Style利用されてる方が多いと思いますが、入力モード変換はKtai Styleに準じます。それによる不具合は一切サポートできませんのでご了承ください。</p>
+</li>
+</ol>
+</div>
+
+<div class="navi">
+<ul>
+<li><a href="#information">スクリプト情報</a></li>
+<li><a href="#setting">設定</a></li>
+<li><a href="#istyle">入力モード変換</a></li>
+<li><a href="#exsample">サンプルコード</a></li>
+<li><a href="#MT">For Movable Type</a></li>
+<li><a href="#WP">For Wordpress</a></li>
+<li><a href="#tag">テンプレートタグ</a></li>
+</ul>
+</div><!-- /navi -->
+
+<div id="tag" class="code">
+<h2>TEMPLATEタグ</h2>
+<p>当スクリプトは独自テンプレートエンジンを搭載しいくつかの独自タグを用意しております。またテンプレートにPHPコードも入力出来るようになってます。<br />
+独自タグ及びPHPコードはフォームテンプレート及びメール本文用テンプレート共に利用できます。</p>
+<ol>
+<li><h3>独自タグ</h3>
+<table class="tb-normal">
+<thead>
+<tr>
+<th>タグ</th>
+<th>内容</th>
+<th>記入例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>striptags</th>
+<td>HTMLタグを削除します。</td>
+<td>{striptags|$data}</td>
+</tr>
+<tr>
+<th>nl2br</th>
+<td>改行コード\nを&lt;br /&gt;に変換します。</td>
+<td>{nl2br|$data.body}</td>
+</tr>
+<tr>
+<th>implode</th>
+<td>配列を半角カンマ(,)区切りで結合します。</td>
+<td>{implode|$data}</td>
+</tr>
+<tr>
+<th>strimwidth</th>
+<td>文字列を幅で丸めます。</td>
+<td>&lt;strimwidth=20&gt;{$data.body}&lt;/strimwidth&gt;</td>
+</tr>
+<tr>
+<th>strimlength</th>
+<td>文字数を丸めます。</td>
+<td>&lt;strimlength=20&gt;{$data.title}&lt;/strimlength&gt;</td>
+</tr>
+<tr>
+<th>date</th>
+<td>UNIXタイムスタンプの日付フォーマットを定義します。</td>
+<td>&lt;date=Y-m-d H:i:s&gt;{$data.date}&lt;/date&gt;</td>
+</tr>
+<tr>
+<th>if</th>
+<td>条件分岐を行います。</td>
+<td>&lt;!--if:$data--&gt;～～～～&lt;!--endif:$data--&gt;</td>
+</tr>
+<tr>
+<th>else</th>
+<td>条件分岐で使用します。</td>
+<td>&lt;!--if:$data--&gt;<br />
+～～～～～～～～～<br />
+&lt;!--else:$data--&gt;<br />
+～～～～～～～～～<br />
+&lt;!--endif:$data--&gt;</td>
+</tr>
+<tr>
+<th>loop</th>
+<td>繰り返し処理を行います。</td>
+<td>&lt;!--loop:$data*5--&gt;～～～～&lt;!--endloop:$data--&gt;</td>
+</tr>
+<tr>
+<th>noloop</th>
+<td>繰り返し処理で何もデータがない場合の処理。</td>
+<td>&lt;!--loop:$data--&gt;<br />
+～～～～～～～～～～～～<br />
+&lt;noloop&gt;&lt;p&gt;ただいま準備中です。&lt;/p&gt;&lt;/noloop&gt;<br />
+&lt;!--endloop:$data--&gt;</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+
+</div><!-- /help -->
+
+</div><!-- /wrapper -->
+</body>
+</html>

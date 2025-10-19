@@ -1,0 +1,16 @@
+text1=<p><img src = "updir/news.gif"></p>
+
+
+
+<p>●2007/9/1
+
+NEW OPEN
+belugaプランタン銀座店
+東京都中央区銀座3-2-1
+
+●2007/8/30
+
+NEW OPEN
+mila schon天満屋岡山店
+岡山市表町2丁目1番1号
+</p>

@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="../../take4site/yuga.js_0.7.1/yuga.js_0.7.1/css/thickbox.css" type="text/css" media="screen" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="../../take4site/yuga.js_0.7.1/yuga.js_0.7.1/js/thickbox.js"></script>
+<script type="text/javascript" src="../../take4site/yuga.js_0.7.1/yuga.js_0.7.1/js/yuga.js" charset="utf-8"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>少し離れた所の同グループリンクテキスト</title>
+<link href="../../take4site/yuga.js_0.7.1/yuga.js_0.7.1/css/ebooth2011.css" rel="stylesheet" type="text/css" />
+<link href="../../take4site/yuga.js_0.7.1/yuga.js_0.7.1/css/e-booth_only.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+body {background-color: #CCC;}
+a:hover {color: #F00;}
+
+/* img, div, input { behavior: url("../../iepngfix/iepngfix.htc") }
+*/
+-->
+</style>
+
+</head>
+<body>
+<a href="../../take4site/yuga.js_0.7.1/yuga.js_0.7.1/dummy1.html" class="btngroup">
+<img src="../../take4site/yuga.js_0.7.1/yuga.js_0.7.1/img/btn.png" alt="" class="btn" />
+<img src="../../take4site/yuga.js_0.7.1/yuga.js_0.7.1/img/btn.png" alt="" />
+<img src="../../take4site/yuga.js_0.7.1/yuga.js_0.7.1/img/btn.png" alt="" class="btn" />
+ リンクテキスト</a>
+<br/> 
+<hr />
+<p>↑orgソース</p>
+<p>↓こっからwrapper</p>
+<div id="wrapper" class="relative">
+
+	<table>
+		<tr>
+			<td class="bg_map">&nbsp;</td>
+		</tr>
+	</table>
+	
+	<table width="800" border="0" cellpadding="5">
+	<tr>
+		<td><a href="../../take4site/yuga.js_0.7.1/yuga.js_0.7.1/dummy1.html" class="btngroup">btn01</a></td>
+		<td>
+		<a href="../../take4site/yuga.js_0.7.1/yuga.js_0.7.1/dummy1.html" class="btngroup">
+		btn02
+			<img src="../../take4site/yuga.js_0.7.1/yuga.js_0.7.1/tableTest/b001.png" alt="" width="84" height="47" class="btn" /></a>
+			</td>
+		<td>
+		<a href="../../take4site/yuga.js_0.7.1/yuga.js_0.7.1/dummy1.html" class="btngroup">
+		btn03
+			<div class="b_fixed001"><img src="../../take4site/yuga.js_0.7.1/yuga.js_0.7.1/tableTest/b001.png" alt="" width="84" height="47" class="btn" /></div></a>
+	</td>
+	</tr>
+	<tr>
+		<td>lbtn01</td>
+		<td>lbtn02</td>
+		<td>lbtn03</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>ノーマル配置　透過png<img src="../../take4site/yuga.js_0.7.1/yuga.js_0.7.1/tableTest/b001_on.png" alt="" width="84" height="47" /></td>
+	</tr>
+</table>
+	
+	<p>とりあえず</p>
+	<p>1.wrapperのバックにbg classで表示<br />
+		2.下段にリストテーブルを追加
+		
+	</p>
+	<p>3.btn01にロールオーバーclassを追加</p>
+	<p>4.btn02に同様+_on imgを追加(img class=&quot;btn&quot;)</p>
+	<p>5.btn03で更にimgをdivでくるんで別場所配置（そのままでは×）</p>
+	<p>6.更にwrapper id にclass=&quot;relative&quot;を指定、つまりrelative+absoluteで位置指定を施す</p>
+	<p>7.一応ie6で検査w →やはりpngがダメー。。ったく</p>
+	<p>8.DD_belatedPNG_0.0.8a-min.jsというのでヤツ対策</p>
+	<p>9.参考siteどおり設定し、とりあえず無動作pngは透過okに butロールオーバーがダメなのでin png fixに移行</p>
+	<p>10.　とりあえず設置ok、でもロールオーバーにひと設定必要と思われるがie6をとりあえず無視でtake1を作ってしまえ</p>
+	<p>　→参照ページ内cssをコメントアウト処理</p>
+</div>
+</body>
+</html>

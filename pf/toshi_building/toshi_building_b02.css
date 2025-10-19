@@ -1,0 +1,8 @@
+.box1 {
+	background-image: url(img/b02_plate1.jpg);
+	background-repeat: no-repeat;
+	width: 800px;
+	height: 270px;
+	padding-top: 280px;
+	padding-left: 20px;	float: left;
+}

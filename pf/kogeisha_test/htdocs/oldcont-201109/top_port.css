@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#top_port_img {
+	text-align: center;
+	margin: auto;
+}
+#top_port_img1 a,
+#top_port_img2 a,
+#top_port_img13 a,
+#top_port_img14 a,
+#top_port_img15 a,
+
+#top_port_img16 a,
+#top_port_img17 a,
+#top_port_img18 a,
+#top_port_img19 a,
+#top_port_img20 a
+{
+	text-decoration: none;
+	display: block;
+	padding: 0px;
+	margin: 6px auto 0px;
+	text-align: center;
+	width: 160px;
+	height: 160px;
+	border: 1px solid #6CF;
+
+}
+
+#top_port_img1 a:hover,
+#top_port_img2 a:hover,
+#top_port_img13 a:hover,
+#top_port_img14 a:hover,
+#top_port_img15 a:hover,
+
+#top_port_img16 a:hover,
+#top_port_img17 a:hover,
+#top_port_img18 a:hover,
+#top_port_img19 a:hover,
+#top_port_img20 a:hover
+{
+	border: 1px solid #FF3333;
+}
+
+
+
+
+#top_port_img1 a {
+	background: url(port/port/content/bin/images/large/semicon09_12_00.jpg) no-repeat center center;
+}
+#top_port_img2 a {
+	background: url(port/port/content/bin/images/large/HVAC&R_JAPAN10_02_00.jpg) no-repeat center center;
+}
+#top_port_img13 a {
+	background: url(port/port/content/bin/images/large/foodex2010_00.jpg) no-repeat center center;
+}
+#top_port_img14 a {
+	background: url(port/port/content/bin/images/large/v14_hitachi00.jpg) no-repeat center center;
+}
+#top_port_img15 a {
+	background: url(port/port/content/bin/images/large/v15_00.jpg) no-repeat center center;
+}
+#top_port_img16 a {
+	background: url(port/port/content/bin/images/large/v16_00.jpg) no-repeat center center;
+}
+#top_port_img17 a {
+	background: url(port/port/content/bin/images/large/v17_00.jpg) no-repeat center center;
+}
+#top_port_img18 a {
+	background: url(../port/port/content/bin/images/large/v18_00.jpg) no-repeat center center;
+}
+#top_port_img19 a {
+	background: url(../port/port/content/bin/images/large/v19_00.jpg) no-repeat center center;
+}
+#top_port_img20 a {
+	background: url(../port/port/content/bin/images/large/v20_00.jpg) no-repeat center center;
+}

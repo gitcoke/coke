@@ -1,0 +1,20 @@
+# メンテナンス画面のURL
+#ErrorDocument 503 /maintenance.html
+ 
+<IfModule mod_rewrite.c>
+RewriteEngine On
+# 2011年05月27日 20:00 以降をメンテナンスモードにする
+RewriteCond %{TIME} >201312270059.*
+# メンテナンス画面と画像,js,cssをリダイレクトから除外
+#RewriteCond %{REQUEST_FILENAME} !(/maintenance.html|\.(gif|jpe?g|png|js|css))$
+# 指定IPを除外
+RewriteCond %{REMOTE_ADDR} !=192.168.0.4
+RewriteCond %{REMOTE_ADDR} !=192.168.0.5
+# 503エラーで返す。
+#RewriteRule ^.*$ - [R=503,L]
+</IfModule>
+ 
+<IfModule mod_headers.c>
+# クローラー用に指定時間後にまたきてねと言っておく
+Header set Retry-After "Fri, 27 May 2011 11:00:00 GMT"
+</IfModule>
